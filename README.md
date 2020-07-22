@@ -14,6 +14,9 @@ Luke Shepherd
 
 Sarah Cowgill
 
+Frontend: George, Robeil, Sarah
+Backend: Benjamin, Julee, Luke
+
 # COVID-19 Dashboard
 
 This COVID-19 tracking dashboard website will pull up-to-date covid-19 information via 3rd party APIs, then present the data in a cohesive, simple dashboard. Data is segmented into a few categories: Statistical Data, Interactive map, Latest News, & Government Announcements. The app will also give users a high-level, one-line assessment of the state of covid-19 containment in their area, allowing users to make informed decisions. The webpage will be responsive & each section will tell users the timing for each piece of data.
@@ -33,6 +36,7 @@ SO THAT I can make informed decisions when planning my day.
 User Flow - Landing Page, search for city, then pull up dashboard. 
 
 ![dashboard-screenshot](.\Assets\Images\dashboard-screenshot.jpg)
+[Link to Wireframe File](https://drive.google.com/file/d/1cg9Mt5OtGMO443ljs54syF3Wgxa8wAZp/view?usp=sharing) - Open with Draw.io!
 
 ## APIs
 
