@@ -42,3 +42,14 @@ Note that the placeholder div has the ID `$("#mapPlaceholder")`, so if the map f
 * Gov Announcements Card 1: `$("#announcementCard1")`
 * Gov Announcements Card 2: `$("#announcementCard2")`
 * Gov Announcements Card 3: `$("#announcementCard3")`
+
+#### Latest News
+* I also don't know the format for latest news, so I will include both the whole column and each card, like I did for the government section.
+* Latest News Area: `$("#newsArea")`
+* News Card 1: `$("#newsCard1")`
+* News Card 2: `$("#newsCard2")`
+* News Card 3: `$("#newsCard3")`
+
+#### Links List
+* In case we want to dynamically adjust the links list.
+* `<ul>` Links List: `$("#linksList")`
