@@ -1,11 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>COVID-19 Tracker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="javascript:void(0)">COVID-19 Tracker</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navb">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Topic 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Topic 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Topic 3</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container pt-3">
+    <div class="row">
+      <ul id="advisory-list-group" class="list-group list-group-horizontal">
+        <li class="list-group-item">Mask Advisory: Yes</li>
+        <li class="list-group-item">Social Distancing Requirements: Yes</li>
+        <li class="list-group-item">Travel Restrictions: Heavy</li>
+        <li class="list-group-item">Trend in new cases: Increasing</li>
+      </ul>
+    </div>
+    <div class="row">
+      <div id="county-card-list" class="col-sm-3 text-center" style="background-color:lavender;">
+        <div class="card">
+          <div class="card-header">County Totals</div>
+          <div class="card-body text-left small">
+            <p class="card-text">Confirmed Total Cases</p>
+            <p class="card-text">Daily New Cases</p>
+            <p class="card-text">Confirmed Total Deaths</p>
+            <p class="card-text">Daily New Deaths</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6 text-center" style="background-color:lavenderblush;">
+        <div class="row">
+          <div class="col">
+            <p class="text-center">
+              <h5>Map</h5>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid" src="https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/map-example.jpg?raw=true"
+              alt="Map">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+
+            <h5 class="pt-3">Latest Government Announcements</h5>
+
+            <div class="row">
+              <div class="col">
+                <div class="card p-0 m-0">
+                  <div class="card-body text-center small">
+                    <p class="card-text">"Jay Inslee will make an announcement at 5pm local time"</p>
+                    <p class="card-text">@Gov Inslee on Twitter</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card p-0 m-0">
+                  <div class="card-body text-center small">
+                    <p class="card-text">"Certain counties are progressing to Phase 3"</p>
+                    <p class="card-text">@Gov Inslee on Twitter</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card p-0 m-0">
+                  <div class="card-body text-center small">
+                    <p class="card-text">"City of Seattle enacts new restaurant guidelines"</p>
+                    <p class="card-text">@MayorJenny on Twitter</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3 text-center" style="background-color:lavender">
+        <div class="row">
+          <div class="card p-0 m-0">
+            <div class="card-body text-left small">
+              <p class="card-title">Latest News</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</p>
+            </div>
+          </div>
+          <div class="card p-0 m-0">
+            <div class="card-body text-left small">
+              <p class="card-title">Latest News</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</p>
+            </div>
+          </div>
+          <div class="card p-0 m-0">
+            <div class="card-body text-left small">
+              <p class="card-title">Latest News</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="card-body text-left small">
+            <p class="card-title">External Links</p>
+            <ul>
+              <li>CDC Homepage</li>
+              <li>Five-Thirty-Eight</li>
+              <li>Vaccine News</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>
+
 </html>
