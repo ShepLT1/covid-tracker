@@ -35,7 +35,7 @@ SO THAT I can make informed decisions when planning my day.
 
 User Flow - Landing Page, search for city, then pull up dashboard. 
 
-![dashboard-screenshot](./Assets/Images/dashboard-screenshot.jpg)
+![dashboard-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard-screenshot.jpg)
 [Link to Wireframe File](https://drive.google.com/file/d/1cg9Mt5OtGMO443ljs54syF3Wgxa8wAZp/view?usp=sharing) - Open with Draw.io!
 
 ## APIs
