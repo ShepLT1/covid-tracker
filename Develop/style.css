@@ -1,3 +1,15 @@
+.simple-border {
+    border: solid; 
+    padding: .5em; 
+    border-color: gray; 
+    border-width: 1px; 
+    margin-bottom: .5em;
+}
+
+.sticky-topbar {
+    width: 100%;
+}
+
 /* CSS For Dashboard-nav-card sections: */
 .dashboard-nav-card {
   background: #1779ba;
