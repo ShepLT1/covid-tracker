@@ -50,6 +50,21 @@ $(document).ready(function() {
         // number of tests administered today
         var todayIncTests = response[0].totalTestResultsIncrease;
 
+        // pulls today's date from ajax call
+        var todayDate = JSON.stringify(response[0].date);
+
+        // grabs current year
+        var currentYear = todayDate.slice(0,4);
+
+        // grabs current month
+        var currentMonth = todayDate.slice(4,6);
+
+        // grabs current day of month
+        var currentDay = todayDate.slice(6,8);
+
+        // formats to user-friendly date
+        var formatTodayDate = currentMonth + "/" + currentDay + "/" + currentYear;
+
         // find amount of ventilators or ICU beds available in each state, then compute current icu/availbe icu. ditto for ventilators
 
     })
