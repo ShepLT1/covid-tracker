@@ -20,19 +20,19 @@
 
 #### Stats Sidebar
 * Updated Stats Date Span (to let user know how recent data is): `($"#updatedStatsDateSpan")`
-* Confirmed Total Cases Span: `($"#totPositiveSpan")` *(Same as Cumulative Positive Tests)*
-* Daily New Cases Span: `($"#incPositiveSpan")`
-* Confirmed Total Deaths Span: `($"#totDeathsSpan")`
-* Daily New Deaths Span: `($"#dailyDeathsSpan")`
+* Confirmed Total Cases Span: `($"#todayTotPositiveSpan")` *(Same as Cumulative Positive Tests)*
+* Daily New Cases Span: `($"#todayIncPositiveSpan")`
+* Confirmed Total Deaths Span: `($"#todayTotDeathsSpan")`
+* Daily New Deaths Span: `($"#todayDailyDeathsSpan")`
 
-* Cumulative Positive Tests: `$("#totPositiveSpan")` *(Same as Confirmed Total Cases)*
-* Cumulative Negative Tests: `$("#totNegativeSpan")`
-* Cumulative Total Tests: `$("#totTestsSpan")`
-* Increase in Testing: `$("#incTestsSpan")`
+* Cumulative Positive Tests: `$("#todayTotPositiveSpan")` *(Same as Confirmed Total Cases)*
+* Cumulative Negative Tests: `$("#todayTotNegativeSpan")`
+* Cumulative Total Tests: `$("#todayTotTestsSpan")`
+* Increase in Testing: `$("#todayIncTestsSpan")`
 
-* Current Hospitalized Population Span: `($"#currHospitalSpan")`
-* Increase in Hospitalizations: `($"#incHospitalSpan")`
-* Total Cumulative Hospitalizations: `($"#totHospitalSpan")`
+* Current Hospitalized Population Span: `($"#todayCurrHospitalSpan")`
+* Increase in Hospitalizations: `($"#todayIncHospitalSpan")`
+* Total Cumulative Hospitalizations: `($"#todayTotHospitalSpan")`
 
 #### Map Area
 * Map Display Area: `$("#mapDisplayArea")`
