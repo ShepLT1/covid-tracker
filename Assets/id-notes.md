@@ -3,8 +3,8 @@
 
 ---
 #### NavBar
-* Search Input Field: `$("#searchBarInput")`
-* Search Button: `$("#searchBarButton")`
+[**NavBar No Longer has a SearchBar!**]
+* Each top menu button now has a data attribute: `data-location-name`. The data attribute corresponds to the name of the state, or "Country" / "World" (for the Country & World Buttons).
 
 #### Top Alerts
 * Mask Advisory Cell (to toggle cell display if no information): `$("#maskAdvisoryCell")`
