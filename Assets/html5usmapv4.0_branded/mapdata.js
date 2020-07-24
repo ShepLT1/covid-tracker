@@ -1,7 +1,7 @@
 var simplemaps_usmap_mapdata={
   main_settings: {
     //General settings
-		width: "700", //or 'responsive'
+		width: "responsive", //or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
     popups: "detect",
@@ -10,7 +10,7 @@ var simplemaps_usmap_mapdata={
 		state_description: "State description",
     state_color: "#88A4BC",
     state_hover_color: "#3B729F",
-    state_url: "https://simplemaps.com",
+    state_url: "",
     border_size: 1.5,
     border_color: "#ffffff",
     all_states_inactive: "no",
@@ -77,21 +77,21 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     AK: {
       name: "Alaska",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     FL: {
       name: "Florida",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default",
+      url: "",
       inactive: "no"
     },
     NH: {
@@ -99,168 +99,168 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     VT: {
       name: "Vermont",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     ME: {
       name: "Maine",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     RI: {
       name: "Rhode Island",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     NY: {
       name: "New York",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     PA: {
       name: "Pennsylvania",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     NJ: {
       name: "New Jersey",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     DE: {
       name: "Delaware",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     MD: {
       name: "Maryland",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     VA: {
       name: "Virginia",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     WV: {
       name: "West Virginia",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     OH: {
       name: "Ohio",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     IN: {
       name: "Indiana",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     IL: {
       name: "Illinois",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     CT: {
       name: "Connecticut",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     WI: {
       name: "Wisconsin",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     NC: {
       name: "North Carolina",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     DC: {
       name: "District of Columbia",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     MA: {
       name: "Massachusetts",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     TN: {
       name: "Tennessee",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     AR: {
       name: "Arkansas",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     MO: {
       name: "Missouri",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     GA: {
       name: "Georgia",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     SC: {
       name: "South Carolina",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     KY: {
       name: "Kentucky",
@@ -268,175 +268,175 @@ var simplemaps_usmap_mapdata={
       color: "default",
       zoomable: "no",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     AL: {
       name: "Alabama",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     LA: {
       name: "Louisiana",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     MS: {
       name: "Mississippi",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     IA: {
       name: "Iowa",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     MN: {
       name: "Minnesota",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     OK: {
       name: "Oklahoma",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     TX: {
       name: "Texas",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     NM: {
       name: "New Mexico",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     KS: {
       name: "Kansas",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     NE: {
       name: "Nebraska",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     SD: {
       name: "South Dakota",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     ND: {
       name: "North Dakota",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     WY: {
       name: "Wyoming",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     MT: {
       name: "Montana",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     CO: {
       name: "Colorado",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     UT: {
       name: "Utah",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     AZ: {
       name: "Arizona",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     NV: {
       name: "Nevada",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     OR: {
       name: "Oregon",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     WA: {
       name: "Washington",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     CA: {
       name: "California",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     MI: {
       name: "Michigan",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     ID: {
       name: "Idaho",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: ""
     },
     GU: {
       name: "Guam",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default",
+      url: "",
       hide: "yes"
     },
     VI: {
@@ -444,7 +444,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default",
+      url: "",
       hide: "yes"
     },
     PR: {
@@ -452,7 +452,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default",
+      url: "",
       hide: "yes"
     },
     AS: {
@@ -460,7 +460,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default",
+      url: "",
       hide: "yes"
     },
     MP: {
@@ -468,7 +468,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "default",
+      url: "",
       hide: "yes"
     }
   },
@@ -479,7 +479,7 @@ var simplemaps_usmap_mapdata={
       lng: -74,
       description: "default",
       color: "default",
-      url: "default",
+      url: "",
       type: "default",
       size: "default"
     },
