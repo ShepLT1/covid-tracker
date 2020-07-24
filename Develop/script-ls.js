@@ -6,37 +6,49 @@ $(document).ready(function() {
 
     var stateAbr = $(this).attr("data-state-abbr");
 
-    var queryURL = "https://covidtracking.com/api/v1/states/" + stateAbr + "/current.json";
-
-    console.log(queryURL);
+    var queryURL = "https://covidtracking.com/api/v1/states/" + stateAbr + "/daily.json";
 
     $.ajax({
         url: queryURL,
         method: "GET",
       }).then(function(response) {
 
-        console.log(response);
+        console.log(response[0]);
 
-        var totDeaths = response.death;
-        var dailyDeaths = response.deathIncrease;
+        // cumulative death total
+        var todayTotDeaths = response[0].death;
+        // new deaths for current day
+        var todayDailyDeaths = response[0].deathIncrease;
 
-        var totHospital = response.hospitalizedCumulative;
-        var currHospital = response.hospitalizedCurrently;
-        var incHospital = response.hospitalizedIncrease;
+        // cumulative hospitalized patient total
+        var todayTotHospital = response[0].hospitalizedCumulative;
+        // current number of hospitalized patients
+        var todayCurrHospital = response[0].hospitalizedCurrently;
+        // number of new hospital patients admitted today
+        var todayIncHospital = response[0].hospitalizedIncrease;
 
-        var totICU = response.inIcuCumulative;
-        var currICU = response.inIcuCurrently;
+        // cumulative ICU patient total
+        var todayTotICU = response[0].inIcuCumulative;
+        // current number of ICU patients
+        var todayCurrICU = response[0].inIcuCurrently;
 
-        var totNegative = response.negative;
+        // cumulative total of negative tests
+        var todayTotNegative = response[0].negative;
 
-        var totVent = response.onVentilatorCumulative;
-        var currVent = response.onVentilatorCurrently;
+        // cumulative total of patients put on ventilator
+        var todayTotVent = response[0].onVentilatorCumulative;
+        // current number of patients on ventilator
+        var todayCurrVent = response[0].onVentilatorCurrently;
 
-        var totPositive = response.positive;
-        var incPositive = response.positiveIncrease;
+        // cumulative total of positive tests
+        var todayTotPositive = response[0].positive;
+        // number of new positive tests received today
+        var todayIncPositive = response[0].positiveIncrease;
 
-        var totTests = response.totalTestResults;
-        var incTests = response.totalTestResultsIncrease;
+        // cumulative total of number of tests administered
+        var todayTotTests = response[0].totalTestResults;
+        // number of tests administered today
+        var todayIncTests = response[0].totalTestResultsIncrease;
 
         // find amount of ventilators or ICU beds available in each state, then compute current icu/availbe icu. ditto for ventilators
 
