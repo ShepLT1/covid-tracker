@@ -81,6 +81,7 @@ font-size: medium;
 }
 
 
+
 #map {
   height: 100%;
 }
@@ -90,7 +91,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
-=======
+
 
 /* Overriding Foundation's default style for the alert cards */
 @media print, screen and (min-width: 40em) and (max-width: 60em){
@@ -102,4 +103,3 @@ html, body {
     .h4, h4 {
         font-size: 1.4rem !important;
     }}
-
