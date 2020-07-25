@@ -84,33 +84,33 @@
   </div> -->
 
   <!-- Foundation Top Alerts Bar -->
-  <div class="grid-x simple-border">
+  <div class="grid-x grid-margin-x simple-border">
     <div class="cell medium-auto" id="maskAdvisoryCell">
-      <a class="dashboard-nav-card" href="#">
-        <i class="dashboard-nav-card-icon fa fa-users" aria-hidden="true"></i>
-        <h3 class="dashboard-nav-card-title">Mask Advisory: <span class="dashboard-nav-card-title"
-            id="maskAdvisorySpan"></span></h3>
+      <a class="dashboard-nav-card">
+        <i class="dashboard-nav-card-icon fas fa-head-side-mask" aria-hidden="true"></i>
+        <h4 class="dashboard-nav-card-title">Mask Advisory: <span class="dashboard-nav-card-title"
+            id="maskAdvisorySpan"></span></h4>
       </a>
     </div>
     <div class="cell medium-auto" id="socialDistancingCell">
-      <a class="dashboard-nav-card" href="#">
-        <i class="dashboard-nav-card-icon fa fa-users" aria-hidden="true"></i>
-        <h3 class="dashboard-nav-card-title">Social Distancing Requirements: <span class="dashboard-nav-card-title"
-            id="socialDistancingSpan"></span></h3>
+      <a class="dashboard-nav-card">
+        <i class="dashboard-nav-card-icon fas fa-people-arrows" aria-hidden="true"></i>
+        <h4 class="dashboard-nav-card-title">Social Distancing Requirements: <span class="dashboard-nav-card-title"
+            id="socialDistancingSpan"></span></h4>
       </a>
     </div>
     <div class="cell medium-auto" id="travelRestrictionsCell">
-      <a class="dashboard-nav-card" href="#">
-        <i class="dashboard-nav-card-icon fa fa-users" aria-hidden="true"></i>
-        <h3 class="dashboard-nav-card-title">Travel Restrictions: <span class="dashboard-nav-card-title"
-            id="travelRestrictionsSpan"></span></h3>
+      <a class="dashboard-nav-card">
+        <i class="dashboard-nav-card-icon fas fa-plane-slash" aria-hidden="true"></i>
+        <h4 class="dashboard-nav-card-title">Travel Restrictions: <span class="dashboard-nav-card-title"
+            id="travelRestrictionsSpan"></span></h4>
       </a>
     </div>
-    <div class="cell medium-auto" id="newCasesCell">
-      <a class="dashboard-nav-card" href="#">
-        <i class="dashboard-nav-card-icon fa fa-users" aria-hidden="true"></i>
-        <h3 class="dashboard-nav-card-title">Trend in new cases: <span class="dashboard-nav-card-title"
-            id="newCasesTrendSpan"></span></h3>
+    <div class="cell medium-auto" id="newCasesTrendCell">
+      <a class="dashboard-nav-card">
+        <i class="dashboard-nav-card-icon fas fa-viruses" aria-hidden="true"></i>
+        <h4 class="dashboard-nav-card-title">Trend in new cases: <span class="dashboard-nav-card-title"
+            id="newCasesTrendSpan"></span></h4>
       </a>
     </div>
   </div>
@@ -121,31 +121,30 @@
       <div class="cell small-12 medium-3 simple-border">
         <div class="card">
           <div class="card-section">
-            <h4>Updated Stats <span id="updatedStatsDate"></span></h4>
-            <p>Confirmed Total Cases: <span id="totalCasesSpan"></span></p>
-            <p>Daily New Cases: <span id="newCasesSpan"></span></p>
-            <p>Confirmed Total Deaths: <span id="totalDeathsSpan"></span></p>
-            <p>Daily New Deaths: <span id="newDeathsSpan"></span></p>
-          </div>
-        </div>
-        <!-- <div class="card">
-          <div class="card-section">
-            <h4>Updated Stats <span id="updatedStatsDate"></span></h4>
-            <p>Confirmed Total Cases: <span id="totalCasesSpan"></span></p>
-            <p>Daily New Cases: <span id="newCasesSpan"></span></p>
-            <p>Confirmed Total Deaths: <span id="totalDeathsSpan"></span></p>
-            <p>Daily New Deaths: <span id="newDeathsSpan"></span></p>
+            <h4>Updated Stats <span id="updatedStatsDateSpan"></span></h4>
+            <p>Confirmed Total Cases: <span id="todayTotPositiveSpan"></span></p>
+            <p>Daily New Cases: <span id="todayIncPositiveSpan"></span></p>
+            <p>Confirmed Total Deaths: <span id="todayTotDeathsSpan"></span></p>
+            <p>Daily New Deaths: <span id="todayDailyDeathsSpan"></span></p>
           </div>
         </div>
         <div class="card">
           <div class="card-section">
-            <h4>Hospitalization Data</h4>
-            <p>Current Hospitalized Population: <span id=""></span></p>
-            <p> <span id=""></span></p>
-            <p>Confirmed Total Deaths: <span id=""></span></p>
-            <p>Daily New Deaths: <span id=""></span></p>
+            <h4>Testing</h4>
+            <p>Cumulative Positive Tests: <span id="todayTotPositiveSpan"></span></p>
+            <p>Cumulative Negative Tests: <span id="todayTotNegativeSpan"></span></p>
+            <p>Cumulative Total Tests: <span id="todayTotTestsSpan"></span></p>
+            <p>Increase in Positive Tests: <span id="todayIncTestsSpan"></span></p>
           </div>
-        </div> -->
+        </div>
+        <div class="card">
+          <div class="card-section">
+            <h4>Hospitalizations</h4>
+            <p>Current Hospitalized Population: <span id="todayCurrHospitalSpan"></span></p>
+            <p>Increase in Hospitalizations: <span id="todayIncHospitalSpan"></span></p>
+            <p>Total Hospitalizations to date: <span id="todayTotHospitalSpan"></span></p>
+          </div>
+        </div>
       </div>
       <!-- Middle Column -->
       <div class="cell small-12 medium-6">
