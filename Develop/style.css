@@ -62,6 +62,16 @@ font-size: medium;
   background: lavender;
 }
 
+a {
+  color: black;
+}
+
+.selector-dropdown-world, .selector-dropdown-country, .selector-dropdown-states{
+ background-color: lavender;
+ color: black;
+ font-weight: bold;
+}
+
 .card {
   border-radius: .5em;
   box-shadow: .5em .5em .25em grey;
