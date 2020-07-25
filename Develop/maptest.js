@@ -12,7 +12,7 @@ var map;
 //calling api using AJAX 
     var queryURL = "https://www.trackcorona.live/api/cities";
     $.ajax({
-      type: "GET",
+      method: "GET",
       url: queryURL,
       dataType: "json",
       success: function (response) {

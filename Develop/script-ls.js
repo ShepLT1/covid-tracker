@@ -67,35 +67,35 @@ $(document).ready(function() {
         // formats to user-friendly date
         var formatTodayDate = currentMonth + "/" + currentDay + "/" + currentYear;
 
-        // var ctx = $('#myChart').getContext('2d');
+        var ctx = $('#myChart').getContext('2d');
 
-        // var chart = new Chart(ctx, {
+        var chart = new Chart(ctx, {
     
-        //   // The type of chart we want to create
-        //   type: 'line',
+          // The type of chart we want to create
+          type: 'line',
 
-        //   // The data for our dataset
-        //   data: {
-        //     labels: [],
-        //     datasets: [{
-        //         label: 'COVID-19 Daily deaths',
-        //         backgroundColor: 'rgb(255, 99, 132)',
-        //         borderColor: 'rgb(255, 99, 132)',
-        //         data: []
-        //     }]
-        //   },
+          // The data for our dataset
+          data: {
+            labels: [],
+            datasets: [{
+                label: 'COVID-19 Daily deaths',
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: []
+            }]
+          },
 
-        //   // Configuration options go here
-        //   options: {
-        //     scales: {
-        //       yAxes: [{
-        //         ticks: {
-        //             beginAtZero: true
-        //         }
-        //       }]
-        //     }
-        //   }
-        // });
+          // Configuration options go here
+          options: {
+            scales: {
+              yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+              }]
+            }
+          }
+        });
 
         for (i = 1; i < 32; i++) {
 
