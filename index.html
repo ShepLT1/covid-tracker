@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<html lang="en">
 <head>
   <title>COVID-19 Tracker</title>
   <meta charset="utf-8">
@@ -10,9 +9,7 @@
     integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
   <link rel="stylesheet" href="./Develop/style.css">
 </head>
-
 <body>
-
   <!-- Nav Bar -->
   <div class="title-bar" data-responsive-toggle="responsive-menu1" data-hide-for="medium">
     <button class="menu-icon" type="button" data-toggle="responsive-menu1"></button>
@@ -152,15 +149,9 @@
       </div>
       <!-- Middle Column -->
       <div class="cell small-12 medium-6">
-        <div class="grid-y">
+        <div class="grid-y" style="height: 60vh">
           <!-- Map Cell -->
-          <div class="cell medium-9" id="mapDisplayArea">
-            <div class="media-object stack-for-small" id="mapPlaceholder">
-              <div class="media-object-section">
-                <img src="https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/map-example.jpg?raw=true"
-                  width="100%" alt="Map">
-              </div>
-            </div>
+          <div class="cell medium-9" id="map">
           </div>
           <!-- Gov Announcements Cell -->
           <div class="cell medium-3">
@@ -249,10 +240,11 @@
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/3bc3d54b47.js" crossorigin="anonymous"></script>
   <!-- Team Scripts -->
-  <script src="./Develop/scripts-foundation.js"></script>
-  <script src="./Develop/script-ls.js"></script>
-  <script src="./Develop/#"></script>
-  <script src="./Develop/#"></script>
-</body>
+  <!-- <script src="./Develop/scripts-foundation.js"></script>
+  <script src="./Develop/script-ls.js"></script> -->
+  <script src="Develop/maptest.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChs4wyhn9M-1Nl7QJkEInXTOy0p4347Jo&callback=initMap"></script>
+  
+  </body>
 
 </html>
