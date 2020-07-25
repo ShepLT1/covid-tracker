@@ -41,6 +41,17 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+<<<<<<< HEAD
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+=======
 
 /* Overriding Foundation's default style for the alert cards */
 @media print, screen and (min-width: 40em) and (max-width: 60em){
@@ -52,3 +63,4 @@
     .h4, h4 {
         font-size: 1.4rem !important;
     }}
+>>>>>>> 7000641f4266655ef5e1b21f033c044d55d81340
