@@ -1,21 +1,11 @@
 # covid-tracker
 
 ### Team:
-
-Benjamin Young
-
-Julee Butler 
-
-Robeil Aregawi 
-
-George Felton
-
-Luke Shepherd
-
-Sarah Cowgill
-
-Frontend: George, Robeil, Sarah
-Backend: Benjamin, Julee, Luke
+| Frontend:      | Backend:       |
+| -------------- | -------------- |
+| George Felton  | Benjamin Young |
+| Robeil Aregawi | Julee Butler   |
+| Sarah Cowgill  | Luke Shepherd  |
 
 # COVID-19 Dashboard
 
