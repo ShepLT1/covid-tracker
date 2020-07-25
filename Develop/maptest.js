@@ -17,7 +17,6 @@ var map;
       dataType: "json",
       success: function (response) {
         for (var i = 0; i < response.data.length; i++) {
-          console.log(response.data[i]?.longitude);
           var lat = response.data[i]?.latitude;
           var long = response.data[i]?.longitude;
           var latLng = new google.maps.LatLng(lat, long);
