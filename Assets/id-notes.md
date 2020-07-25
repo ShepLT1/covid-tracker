@@ -3,8 +3,10 @@
 
 ---
 #### NavBar
-* Search Input Field: `$("#searchBarInput")`
-* Search Button: `$("#searchBarButton")`
+[**NavBar No Longer has a SearchBar!**]
+* Each top menu button now has a data attribute: `data-location-name`. The data attribute corresponds to the name of the state, or "Country" / "World" (for the Country & World Buttons).
+* Each state menu button now has a class: `$(".selector-dropdown")`. The top level menu itmes each have a unique class, with `-world`, `-country`, and `-states` added to the `.selector-dropdown` class.
+* Each state has another data attribute: `data-state-abbr`. The data attribute corresponds to the abbreviation of the state name, in lowercase. World & Country do not have this data attribute.
 
 #### Top Alerts
 * Mask Advisory Cell (to toggle cell display if no information): `$("#maskAdvisoryCell")`
@@ -13,15 +15,24 @@
 * Social Distancing Advisory Alert Span: `$("#socialDistancingSpan")`
 * Travel Restrictions Cell (to toggle cell display if no information): `$("#travelRestrictionsCell")`
 * Travel Restrictions Alert Span: `$("#travelRestrictionsSpan")`
-* New Cases Cell (to toggle cell display if no information): `$("#newCasesCell")`
+* New Cases Trend Cell (to toggle cell display if no information): `$("#newCasesTrendCell")`
 * New Cases Trend Alert Span: `$("#newCasesTrendSpan")`
 
 #### Stats Sidebar
-* Updated Stats Date Span (to let user know how recent data is): `($"#updatedStatsDate")`
-* Confirmed Total Cases Span: `($"#totalCasesSpan")`
-* Daily New Cases Span: `($"#newCasesSpan")`
-* Confirmed Total Deaths Span: `($"#totalDeathsSpan")`
-* Daily New Deaths Span: `($"#newDeathsSpan")`
+* Updated Stats Date Span (to let user know how recent data is): `($"#updatedStatsDateSpan")`
+* Confirmed Total Cases Span: `($"#todayTotPositiveSpan")` *(Same as Cumulative Positive Tests)*
+* Daily New Cases Span: `($"#todayIncPositiveSpan")`
+* Confirmed Total Deaths Span: `($"#todayTotDeathsSpan")`
+* Daily New Deaths Span: `($"#todayDailyDeathsSpan")`
+
+* Cumulative Positive Tests: `$("#todayTotPositiveSpan")` *(Same as Confirmed Total Cases)*
+* Cumulative Negative Tests: `$("#todayTotNegativeSpan")`
+* Cumulative Total Tests: `$("#todayTotTestsSpan")`
+* Increase in Testing: `$("#todayIncTestsSpan")`
+
+* Current Hospitalized Population Span: `($"#todayCurrHospitalSpan")`
+* Increase in Hospitalizations: `($"#todayIncHospitalSpan")`
+* Total Cumulative Hospitalizations: `($"#todayTotHospitalSpan")`
 
 #### Map Area
 * Map Display Area: `$("#mapDisplayArea")`

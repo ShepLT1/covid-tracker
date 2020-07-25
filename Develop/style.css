@@ -6,10 +6,11 @@
     margin-bottom: .5em;
 }
 
-.sticky-topbar {
-    width: 100%;
+.states-list {
+   height: 260px !important;
+   overflow-y: scroll;
+   overflow-x: hidden;
 }
-
 /* CSS For Dashboard-nav-card sections: */
 .dashboard-nav-card {
   background: #1779ba;
