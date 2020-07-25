@@ -6,30 +6,21 @@
     margin-bottom: .5em;
 }
 
-.sticky-topbar {
-    width: 100%;
+.states-list {
+   height: 260px !important;
+   overflow-y: scroll;
+   overflow-x: hidden;
 }
-
 /* CSS For Dashboard-nav-card sections: */
 .dashboard-nav-card {
   background: #1779ba;
   border-radius: 0;
   color: #fefefe;
   display: block;
-  min-height: 100px;
-  padding: 2rem;
+  min-height: 80px;
+  padding: 1.5rem;
   position: relative;
   width: 100%;
-}
-
-.dashboard-nav-card:hover .dashboard-nav-card-title,
-.dashboard-nav-card:hover .dashboard-nav-card-icon {
-  color: #fefefe;
-}
-
-.dashboard-nav-card:hover .dashboard-nav-card-icon {
-  opacity: 1;
-  transition: all 0.2s ease;
 }
 
 .dashboard-nav-card-icon {
@@ -47,4 +38,17 @@
   position: absolute;
   right: 1rem;
   text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
+/* Overriding Foundation's default style for the alert cards */
+@media print, screen and (min-width: 40em) and (max-width: 60em){
+    .h4, h4 {
+        font-size: 1.125rem !important;
+}}
+
+@media print, screen and (min-width: 60em){
+    .h4, h4 {
+        font-size: 1.4rem !important;
+    }}
