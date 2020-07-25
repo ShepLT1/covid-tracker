@@ -1,3 +1,5 @@
+$(document).foundation();
+
 $(document).ready(function() {
 
     $(".selector-dropdown").on("click", function(event) {
