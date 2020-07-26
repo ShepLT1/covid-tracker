@@ -1,9 +1,7 @@
 .simple-border {
   border: solid; 
-  padding: .5em; 
   border-color: gray; 
   border-width: 1px; 
-  margin-bottom: .5em;
 }
   
 .states-list {
@@ -11,10 +9,6 @@
     overflow-y: scroll;
     overflow-x: hidden;
  }
-
-
-  
-
 
 /* CSS For Dashboard-nav-card sections: */
 .dashboard-nav-card {
@@ -62,13 +56,20 @@ font-size: medium;
   background-color: lavender;
   height: 100%; 
   width: 100%; 
-  
-
-
 }
 
 .top-bar {
   background: lavender;
+}
+
+a {
+  color: black;
+}
+
+.selector-dropdown-world, .selector-dropdown-country, .selector-dropdown-states{
+ background-color: lavender;
+ color: black;
+ font-weight: bold;
 }
 
 .card {
@@ -80,18 +81,9 @@ font-size: medium;
   border-radius: 1.3em 0 1.3em;
 }
 
-
-
 #map {
   height: 100%;
 }
-/* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 
 /* Overriding Foundation's default style for the alert cards */
 @media print, screen and (min-width: 40em) and (max-width: 60em){

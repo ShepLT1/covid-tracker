@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>COVID-19 Tracker</title>
   <meta charset="utf-8">
@@ -9,6 +10,7 @@
     integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
   <link rel="stylesheet" href="./Develop/style.css">
 </head>
+
 <body>
   <!-- Nav Bar -->
   <div class="title-bar" data-responsive-toggle="responsive-menu1" data-hide-for="medium">
@@ -17,7 +19,7 @@
   </div>
   <div class="top-bar" id="responsive-menu1">
     <div class="top-bar-left">
-      <h1>Covid-19 Dashboard</h1>
+      <h1><strong>Covid-19 Dashboard</strong></h1>
     </div>
     <div class="top-bar-right">
       <ul class="dropdown menu" data-dropdown-menu>
@@ -28,63 +30,92 @@
             <li><a href="#" class="selector-dropdown" data-location-name="Alabama" data-state-abbr="al">Alabama</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Alaska" data-state-abbr="ak">Alaska</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Arizona" data-state-abbr="az">Arizona</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Arkansas" data-state-abbr="ar">Arkansas</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="California" data-state-abbr="ca">California</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Colorado" data-state-abbr="co">Colorado</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Connecticut" data-state-abbr="ct">Connecticut</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Delaware" data-state-abbr="de">Delaware</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Arkansas" data-state-abbr="ar">Arkansas</a>
+            </li>
+            <li><a href="#" class="selector-dropdown" data-location-name="California"
+                data-state-abbr="ca">California</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Colorado" data-state-abbr="co">Colorado</a>
+            </li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Connecticut"
+                data-state-abbr="ct">Connecticut</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Delaware" data-state-abbr="de">Delaware</a>
+            </li>
             <li><a href="#" class="selector-dropdown" data-location-name="Florida" data-state-abbr="fl">Florida</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Georgia" data-state-abbr="ga">Georgia</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Hawaii" data-state-abbr="hi">Hawaii</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Idaho" data-state-abbr="id">Idaho</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Illinois" data-state-abbr="il">Illinois</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Illinois" data-state-abbr="il">Illinois</a>
+            </li>
             <li><a href="#" class="selector-dropdown" data-location-name="Indiana" data-state-abbr="in">Indiana</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Iowa" data-state-abbr="ia">Iowa</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Kansas" data-state-abbr="ks">Kansas</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Kentucky" data-state-abbr="ky">Kentucky</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Louisiana" data-state-abbr="la">Louisiana</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Kentucky" data-state-abbr="ky">Kentucky</a>
+            </li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Louisiana" data-state-abbr="la">Louisiana</a>
+            </li>
             <li><a href="#" class="selector-dropdown" data-location-name="Maine" data-state-abbr="me">Maine</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Maryland" data-state-abbr="md">Maryland</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Massachusetts" data-state-abbr="ma">Massachusetts</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Michigan" data-state-abbr="mi">Michigan</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Minnesota" data-state-abbr="mn">Minnesota</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Mississippi" data-state-abbr="ms">Mississippi</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Missouri" data-state-abbr="mo">Missouri</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Maryland" data-state-abbr="md">Maryland</a>
+            </li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Massachusetts"
+                data-state-abbr="ma">Massachusetts</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Michigan" data-state-abbr="mi">Michigan</a>
+            </li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Minnesota" data-state-abbr="mn">Minnesota</a>
+            </li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Mississippi"
+                data-state-abbr="ms">Mississippi</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Missouri" data-state-abbr="mo">Missouri</a>
+            </li>
             <li><a href="#" class="selector-dropdown" data-location-name="Montana" data-state-abbr="mt">Montana</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Nebraska" data-state-abbr="ne">Nebraska</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Nebraska" data-state-abbr="ne">Nebraska</a>
+            </li>
             <li><a href="#" class="selector-dropdown" data-location-name="Nevada" data-state-abbr="nv">Nevada</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="New Hampshire" data-state-abbr="nh">New Hampshire</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="New Jersey" data-state-abbr="nj">New Jersey</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="New Mexico" data-state-abbr="nm">New Mexico</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="New York" data-state-abbr="ny">New York</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="North Carolina" data-state-abbr="nc">North Carolina</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="North Dakota" data-state-abbr="nd">North Dakota</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="New Hampshire" data-state-abbr="nh">New
+                Hampshire</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="New Jersey" data-state-abbr="nj">New
+                Jersey</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="New Mexico" data-state-abbr="nm">New
+                Mexico</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="New York" data-state-abbr="ny">New York</a>
+            </li>
+            <li><a href="#" class="selector-dropdown" data-location-name="North Carolina" data-state-abbr="nc">North
+                Carolina</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="North Dakota" data-state-abbr="nd">North
+                Dakota</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Ohio" data-state-abbr="oh">Ohio</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Oklahoma" data-state-abbr="ok">Oklahoma</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Oklahoma" data-state-abbr="ok">Oklahoma</a>
+            </li>
             <li><a href="#" class="selector-dropdown" data-location-name="Oregon" data-state-abbr="or">Oregon</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Pennsylvania" data-state-abbr="pa">Pennsylvania</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Rhode Island" data-state-abbr="ri">Rhode Island</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="South Carolina" data-state-abbr="sc">South Carolina</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="South Dakota" data-state-abbr="sd">South Dakota</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Tennessee" data-state-abbr="tn">Tennessee</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Pennsylvania"
+                data-state-abbr="pa">Pennsylvania</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Rhode Island" data-state-abbr="ri">Rhode
+                Island</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="South Carolina" data-state-abbr="sc">South
+                Carolina</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="South Dakota" data-state-abbr="sd">South
+                Dakota</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Tennessee" data-state-abbr="tn">Tennessee</a>
+            </li>
             <li><a href="#" class="selector-dropdown" data-location-name="Texas" data-state-abbr="tx">Texas</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Utah" data-state-abbr="ut">Utah</a></li>
             <li><a href="#" class="selector-dropdown" data-location-name="Vermont" data-state-abbr="vt">Vermont</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Virginia" data-state-abbr="va">Virginia</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Washington" data-state-abbr="wa">Washington</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="West Virginia" data-state-abbr="wv">West Virginia</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Wisconsin" data-state-abbr="wi">Wisconsin</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Virginia" data-state-abbr="va">Virginia</a>
+            </li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Washington"
+                data-state-abbr="wa">Washington</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="West Virginia" data-state-abbr="wv">West
+                Virginia</a></li>
+            <li><a href="#" class="selector-dropdown" data-location-name="Wisconsin" data-state-abbr="wi">Wisconsin</a>
+            </li>
             <li><a href="#" class="selector-dropdown" data-location-name="Wyoming" data-state-abbr="wy">Wyoming</a></li>
           </ul>
         </li>
       </ul>
     </div>
   </div>
-  <!-- </div>
-  </div> -->
 
   <!-- Foundation Top Alerts Bar -->
-  <div class="grid-x grid-margin-x simple-border">
+  <div class="grid-x grid-margin-x">
     <div class="cell medium-auto" id="maskAdvisoryCell">
       <a class="dashboard-nav-card">
         <i class="dashboard-nav-card-icon fas fa-head-side-mask" aria-hidden="true"></i>
@@ -118,7 +149,7 @@
   <div class="grid-container fluid">
     <div class="grid-x grid-margin-x">
       <!-- Stats Sidebar -->
-      <div class="cell small-12 medium-3 simple-border">
+      <div class="cell small-12 medium-3">
         <div class="card">
           <div class="card-section">
             <h4>Updated Stats <span id="updatedStatsDateSpan"></span></h4>
@@ -148,16 +179,19 @@
       </div>
       <!-- Middle Column -->
       <div class="cell small-12 medium-6">
-        <div class="grid-y" style="height: 60vh">
+        <div class="grid-y grid-padding-y">
+          <!-- style="height: 60vh" -->
           <!-- Map Cell -->
-          <div class="cell medium-9" id="map">
+          <div class="cell medium-9">
+            <div class="responsive-embed simple-border">
+              <object width="420" height=auto id="map"></object>
+            </div>
           </div>
           <!-- Gov Announcements Cell -->
           <div class="cell medium-3">
             <div class="responsive-embed">
               <canvas id="myChart"></canvas>
             </div>
-          </div>
           </div>
         </div>
       </div>
@@ -221,8 +255,9 @@
   <!-- Team Scripts -->
   <script src="./Develop/script-ls.js"></script>
   <script src="Develop/maptest.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChs4wyhn9M-1Nl7QJkEInXTOy0p4347Jo&callback=initMap"></script>
-  
-  </body>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChs4wyhn9M-1Nl7QJkEInXTOy0p4347Jo&callback=initMap"></script>
+
+</body>
 
 </html>
