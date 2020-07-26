@@ -66,13 +66,19 @@ font-size: medium;
 a {
   color: black;
 }
-
-.selector-dropdown-world, .selector-dropdown-country, .selector-dropdown-states{
+a:hover {
+  color: gray
+}
+.selector-dropdown-world, .selector-dropdown-country, .selector-dropdown-states {
  background-color: lavender;
  color: black;
  font-weight: bold;
+ 
 }
 
+.selector-dropdown {
+  background-color: rgb(219, 200, 219);
+}
 .card {
   border-radius: .5em;
   box-shadow: .5em .5em .25em grey;
