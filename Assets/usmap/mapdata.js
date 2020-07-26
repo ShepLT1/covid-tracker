@@ -74,401 +74,457 @@ var simplemaps_usmap_mapdata={
   state_specific: {
     HI: {
       name: "Hawaii",
+      abbrev: "hi",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     AK: {
       name: "Alaska",
+      abbrev: "ak",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     FL: {
       name: "Florida",
+      abbrev: "fl",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "",
+      url: "../../index.html",
       inactive: "no"
     },
     NH: {
       name: "New Hampshire",
+      abbrev: "nh",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     VT: {
       name: "Vermont",
+      abbrev: "vt",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     ME: {
       name: "Maine",
+      abbrev: "me",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     RI: {
       name: "Rhode Island",
+      abbrev: "ri",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     NY: {
       name: "New York",
+      abbrev: "ny",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     PA: {
       name: "Pennsylvania",
+      abbrev: "pa",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     NJ: {
       name: "New Jersey",
+      abbrev: "nj",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     DE: {
       name: "Delaware",
+      abbrev: "de",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     MD: {
       name: "Maryland",
+      abbrev: "md",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     VA: {
       name: "Virginia",
+      abbrev: "va",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     WV: {
       name: "West Virginia",
+      abbrev: "wv",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     OH: {
       name: "Ohio",
+      abbrev: "oh",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     IN: {
       name: "Indiana",
+      abbrev: "in",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     IL: {
       name: "Illinois",
+      abbrev: "il",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     CT: {
       name: "Connecticut",
+      abbrev: "ct",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     WI: {
       name: "Wisconsin",
+      abbrev: "wi",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     NC: {
       name: "North Carolina",
+      abbrev: "nc",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     DC: {
       name: "District of Columbia",
+      abbrev: "dc",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     MA: {
       name: "Massachusetts",
+      abbrev: "ma",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     TN: {
       name: "Tennessee",
+      abbrev: "tn",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     AR: {
       name: "Arkansas",
+      abbrev: "ar",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     MO: {
       name: "Missouri",
+      abbrev: "mo",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     GA: {
       name: "Georgia",
+      abbrev: "ga",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     SC: {
       name: "South Carolina",
+      abbrev: "sc",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     KY: {
       name: "Kentucky",
+      abbrev: "ky",
       description: "default",
       color: "default",
       zoomable: "no",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     AL: {
       name: "Alabama",
+      abbrev: "al",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     LA: {
       name: "Louisiana",
+      abbrev: "la",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     MS: {
       name: "Mississippi",
+      abbrev: "ms",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     IA: {
       name: "Iowa",
+      abbrev: "ia",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     MN: {
       name: "Minnesota",
+      abbrev: "mn",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     OK: {
       name: "Oklahoma",
+      abbrev: "ok",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     TX: {
       name: "Texas",
+      abbrev: "tx",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     NM: {
       name: "New Mexico",
+      abbrev: "nm",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     KS: {
       name: "Kansas",
+      abbrev: "ks",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     NE: {
       name: "Nebraska",
+      abbrev: "ne",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     SD: {
       name: "South Dakota",
+      abbrev: "sd",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     ND: {
       name: "North Dakota",
+      abbrev: "nd",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     WY: {
       name: "Wyoming",
+      abbrev: "wy",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     MT: {
       name: "Montana",
+      abbrev: "mt",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     CO: {
       name: "Colorado",
+      abbrev: "co",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     UT: {
       name: "Utah",
+      abbrev: "ut",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     AZ: {
       name: "Arizona",
+      abbrev: "az",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     NV: {
       name: "Nevada",
+      abbrev: "nv",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     OR: {
       name: "Oregon",
+      abbrev: "or",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     WA: {
       name: "Washington",
+      abbrev: "wa",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     CA: {
       name: "California",
+      abbrev: "ca",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     MI: {
       name: "Michigan",
+      abbrev: "mi",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     ID: {
       name: "Idaho",
+      abbrev: "id",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: ""
+      url: "../../index.html"
     },
     GU: {
       name: "Guam",
+      abbrev: "gu",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "",
+      url: "../../index.html",
       hide: "yes"
     },
     VI: {
       name: "Virgin Islands",
+      abbrev: "vi",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "",
+      url: "../../index.html",
       hide: "yes"
     },
     PR: {
       name: "Puerto Rico",
+      abbrev: "pr",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "",
+      url: "../../index.html",
       hide: "yes"
     },
     AS: {
       name: "American Samoa",
+      abbrev: "as",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "",
+      url: "../../index.html",
       hide: "yes"
     },
     MP: {
       name: "Northern Mariana Islands",
+      abbrev: "mp",
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "",
+      url: "../../index.html",
       hide: "yes"
     }
   },
