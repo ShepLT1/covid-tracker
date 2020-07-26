@@ -2,6 +2,8 @@ $(document).foundation();
 
 $(document).ready(function() {
 
+    var chart;
+
     $(".selector-dropdown").on("click", function(event) {
 
     event.preventDefault();
@@ -140,11 +142,15 @@ $(document).ready(function() {
 
         }
 
+        if (chart) {
+          
+          chart.destroy();
+
+        }
+
         var ctx = $('#myChart');
 
-        ctx.empty();
-
-        var chart = new Chart(ctx, {
+        chart = new Chart(ctx, {
     
           // The type of chart we want to create
           type: 'line',
