@@ -67,37 +67,11 @@ $(document).ready(function() {
         // formats to user-friendly date
         var formatTodayDate = currentMonth + "/" + currentDay + "/" + currentYear;
 
-        var ctx = $('#myChart').getContext('2d');
+        var dateArr = [];
 
-        var chart = new Chart(ctx, {
-    
-          // The type of chart we want to create
-          type: 'line',
+        var posTestRatioArr = [];
 
-          // The data for our dataset
-          data: {
-            labels: [],
-            datasets: [{
-                label: 'COVID-19 Daily deaths',
-                backgroundColor: 'rgb(255, 99, 132)',
-                borderColor: 'rgb(255, 99, 132)',
-                data: []
-            }]
-          },
-
-          // Configuration options go here
-          options: {
-            scales: {
-              yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-              }]
-            }
-          }
-        });
-
-        for (i = 1; i < 32; i++) {
+        for (i = 32; i > 0; i--) {
 
           // cumulative death total
           var totDeaths = response[i].death;
@@ -160,13 +134,43 @@ $(document).ready(function() {
           // formats to user-friendly date
           var formatDate = month + "/" + day;
 
-          console.log(formatDate);
+          dateArr.push(formatDate);
 
-          chart.data.labels.push(formatDate);
-
-          chart.data.datasets.data.push(incPositive);
+          posTestRatioArr.push((totPositive/totTests) * 100);
 
         }
+
+        var ctx = $('#myChart');
+
+        ctx.empty();
+
+        var chart = new Chart(ctx, {
+    
+          // The type of chart we want to create
+          type: 'line',
+
+          // The data for our dataset
+          data: {
+            labels: dateArr,
+            datasets: [{
+                label: 'Percentage of daily positive tests per daily tests administered',
+                backgroundColor: 'transparent',
+                borderColor: 'blue',
+                data: posTestRatioArr,
+            }]
+          },
+
+          // Configuration options go here
+          options: {
+            scales: {
+              yAxes: [{
+                  ticks: {
+                      stepSize: 0.5
+                  }
+              }]
+          }
+          }
+        });
 
         // find amount of ventilators or ICU beds available in each state, then compute current icu/availbe icu. ditto for ventilators
 
