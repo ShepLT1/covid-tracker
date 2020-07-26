@@ -14,6 +14,7 @@
 .dashboard-nav-card {
 background:rgb(117, 60, 117);
 border-radius: 0;
+margin-bottom: 1em;
 color: #fefefe;
 display: block;
 min-height: 80px;
@@ -62,6 +63,22 @@ font-size: medium;
   background: lavender;
 }
 
+a {
+  color: black;
+}
+a:hover {
+  color: gray
+}
+.selector-dropdown-world, .selector-dropdown-country, .selector-dropdown-states {
+ background-color: lavender;
+ color: black;
+ font-weight: bold;
+ 
+}
+
+.selector-dropdown {
+  background-color: rgb(219, 200, 219);
+}
 .card {
   border-radius: .5em;
   box-shadow: .5em .5em .25em grey;

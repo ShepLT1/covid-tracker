@@ -1,25 +1,17 @@
 # covid-tracker
 
 ### Team:
-
-Benjamin Young
-
-Julee Butler 
-
-Robeil Aregawi 
-
-George Felton
-
-Luke Shepherd
-
-Sarah Cowgill
-
-Frontend: George, Robeil, Sarah
-Backend: Benjamin, Julee, Luke
+| Frontend:      | Backend:       |
+| -------------- | -------------- |
+| George Felton  | Benjamin Young |
+| Robeil Aregawi | Julee Butler   |
+| Sarah Cowgill  | Luke Shepherd  |
 
 # COVID-19 Dashboard
 
 This COVID-19 tracking dashboard website will pull up-to-date covid-19 information via 3rd party APIs, then present the data in a cohesive, simple dashboard. Data is segmented into a few categories: Statistical Data, Interactive map, Latest News, & Government Announcements. The app will also give users a high-level, one-line assessment of the state of covid-19 containment in their area, allowing users to make informed decisions. The webpage will be responsive & each section will tell users the timing for each piece of data.
+
+[Link to Deployed Page](https://sheplt1.github.io/covid-tracker/)
 
 ## User Story
 
