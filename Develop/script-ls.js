@@ -7,7 +7,9 @@ $(document).ready(function() {
     $(".selector-dropdown").on("click", function(event) {
 
     event.preventDefault();
-
+      // rename to .selector-dropdown in the map
+      // if statement to swap display of landing-container & dashboard-container.
+      // add toLowerCase() to state-abbr from the landing page map selector.
     var stateAbr = $(this).attr("data-state-abbr");
 
     var queryURL = "https://covidtracking.com/api/v1/states/" + stateAbr + "/daily.json";

@@ -4,7 +4,7 @@ var simplemaps_usmap_mapdata={
 		width: "responsive", //or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
-    popups: "detect",
+    popups: "off",
     
 		//State defaults
 		state_description: "State description",
@@ -65,7 +65,7 @@ var simplemaps_usmap_mapdata={
 		div: "map",
     auto_load: "yes",
     rotate: "0",
-    url_new_tab: "yes",
+    url_new_tab: "no",
     images_directory: "default",
     import_labels: "no",
     fade_time: 0.1,
@@ -473,23 +473,23 @@ var simplemaps_usmap_mapdata={
     }
   },
   locations: {
-    "0": {
-      name: "New York",
-      lat: 40.71,
-      lng: -74,
-      description: "default",
-      color: "default",
-      url: "",
-      type: "default",
-      size: "default"
-    },
-    "1": {
-      name: "Anchorage",
-      lat: 61.2180556,
-      lng: -149.9002778,
-      color: "default",
-      type: "circle"
-    }
+    // "0": {
+    //   name: "New York",
+    //   lat: 40.71,
+    //   lng: -74,
+    //   description: "default",
+    //   color: "default",
+    //   url: "",
+    //   type: "default",
+    //   size: "default"
+    // },
+    // "1": {
+    //   name: "Anchorage",
+    //   lat: 61.2180556,
+    //   lng: -149.9002778,
+    //   color: "default",
+    //   type: "circle"
+    // }
   },
   labels: {
     NH: {
