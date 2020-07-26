@@ -69,6 +69,21 @@ $(document).ready(function() {
         // formats to user-friendly date
         var formatTodayDate = currentMonth + "/" + currentDay + "/" + currentYear;
 
+        $("#updatedStatsDateSpan").text(formatTodayDate);
+        $("#todayTotPositiveSpan").text(todayTotPositive);
+        $("#todayIncPositiveSpan").text(todayIncPositive);
+        $("#todayTotDeathsSpan").text(todayTotDeaths);
+        $("#todayDailyDeathsSpan").text(todayDailyDeaths);
+
+        $("#todayTotPositiveSpan").text(todayTotPositive);
+        $("#todayTotNegativeSpan").text(todayTotNegative);
+        $("#todayTotTestsSpan").text(todayTotTests);
+        $("#todayIncTestsSpan").text(todayIncTests);
+
+        $("#todayCurrHospitalSpan").text(todayCurrHospital);
+        $("#todayIncHospitalSpan").text(todayIncHospital);
+        $("#todayTotHospitalSpan").text(todayTotHospital);
+
         var dateArr = [];
 
         var posTestRatioArr = [];
