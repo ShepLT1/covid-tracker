@@ -4,15 +4,13 @@ $(document).ready(function() {
 
     var chart;
 
-    var stateAbr = localStorage.getItem("Landing State");
+    var abbrev = localStorage.getItem("Abbreviation");
 
-    var queryURL;
+    var queryURL = "https://covidtracking.com/api/v1/" + abbrev + "/daily.json";
 
     var posTestRatio;
 
     function getData() {
-
-      queryURL = "https://covidtracking.com/api/v1/states/" + stateAbr + "/daily.json";
 
       $.ajax({
           url: queryURL,
@@ -255,11 +253,25 @@ $(document).ready(function() {
 
         event.preventDefault();
 
-        // push selected state abbr to local storage to persist on reload
+        var stateAbr = $(this).attr("data-state-abbr");
 
-        stateAbr = $(this).attr("data-state-abbr");
+        localStorage.setItem("Abbreviation", "states/" + stateAbr);
+
+        queryURL = "https://covidtracking.com/api/v1/states/" + stateAbr + "/daily.json";
 
         getData();
+
+    })
+
+    $(".selector-dropdown-country").on("click", function(event) {
+
+      event.preventDefault();
+
+      localStorage.setItem("Abbreviation", "us");
+
+      queryURL = "https://covidtracking.com/api/v1/us/daily.json";
+
+      getData();
 
     })
 
