@@ -62,7 +62,7 @@ var simplemaps_usmap_mapdata={
     popup_nocss: "no",
     
 		//Advanced settings
-		div: "map",
+		div: "landing-map",
     auto_load: "yes",
     rotate: "0",
     url_new_tab: "no",
