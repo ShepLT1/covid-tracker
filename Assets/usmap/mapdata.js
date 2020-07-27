@@ -27,8 +27,8 @@ var simplemaps_usmap_mapdata={
     location_border_color: "#FFFFFF",
     location_border: 2,
     location_hover_border: 2.5,
-    all_locations_inactive: "no",
-    all_locations_hidden: "no",
+    all_locations_inactive: "yes",
+    all_locations_hidden: "yes",
     
 		//Label defaults
 		label_color: "#ffffff",
@@ -62,7 +62,7 @@ var simplemaps_usmap_mapdata={
     popup_nocss: "no",
     
 		//Advanced settings
-		div: "map",
+		div: "landing-map",
     auto_load: "yes",
     rotate: "0",
     url_new_tab: "no",
@@ -529,23 +529,23 @@ var simplemaps_usmap_mapdata={
     }
   },
   locations: {
-    "0": {
-      name: "New York",
-      lat: 40.71,
-      lng: -74,
-      description: "default",
-      color: "default",
-      url: "",
-      type: "default",
-      size: "default"
-    },
-    "1": {
-      name: "Anchorage",
-      lat: 61.2180556,
-      lng: -149.9002778,
-      color: "default",
-      type: "circle"
-    }
+    // "0": {
+    //   name: "New York",
+    //   lat: 40.71,
+    //   lng: -74,
+    //   description: "default",
+    //   color: "default",
+    //   url: "",
+    //   type: "default",
+    //   size: "default"
+    // },
+    // "1": {
+    //   name: "Anchorage",
+    //   lat: 61.2180556,
+    //   lng: -149.9002778,
+    //   color: "default",
+    //   type: "circle"
+    // }
   },
   labels: {
     NH: {
