@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="content-type" content="text/html, charset=UTF-8">
-        <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
-          <!-- Compressed Foundation CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
-  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
-<link rel="stylesheet" href="./Develop/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html, charset=UTF-8">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- Compressed Foundation CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Develop/style.css">
 
-        <title>Covid-19 Tracker</title>
+    <title>Covid-19 Tracker</title>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="./Assets/usmap/mapdata.js"></script>
-        <script src="./Assets/usmap/usmap.js"></script>
-        <script src="./Assets/usmap/mapscript.js"></script>
-    </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./Assets/usmap/mapdata.js"></script>
+    <script src="./Assets/usmap/usmap.js"></script>
+    <script src="./Assets/usmap/mapscript.js"></script>
+</head>
 
-    <body style="background-color: rgb(89, 201, 145);">
+<body style="background-color: rgb(89, 201, 145);">
 
 
-        <div class="top-bar stacked-for-medium" id="example-menu">
-            <div class="top-bar-left">
-                <ul class="dropdown menu" data-dropdown-menu>
-                    <li class="menu-text"></li>
-                    <li class="has-submenu"></li>
-                    <li>
-                        <h1 style="font-family: 'Oleo Script', cursive;">Covid-19 Updates across the USA</h1>
-                    </li>
-                    <li><a href="#0"></a></li>
-                    <li>
-                        <h1 style="font-family: 'Oleo Script', cursive;">Click your State for more<h1>
-                    </li>
-                </ul>
+    <div class="top-bar stacked-for-medium" id="landing-menu">
+        <div class="top-bar-left">
+                    <h1 style="font-family: 'Oleo Script', cursive;">Covid-19 Updates across the USA</h1>
+        </div>
+        <div class="top-bar-right">
+            <h1 style="font-family: 'Oleo Script', cursive;">Click your State for more<h1></h1>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell auto">
+                <div class="responsive-embed">
+                    <object id="landing-map"></object>
+                </div>
             </div>
         </div>
-        <div id="map"></div>
-        <div><a href="http://simplemaps.com/docs"></a>
-            <h2 style="font-family: 'Oleo Script', cursive;">Latest update about corona virus post here.</h2>
-        </div>
-        </div>
+    </div>
 
-<!-- Compressed Foundation JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
-integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-<!-- FontAwesome -->
-<script src="https://kit.fontawesome.com/3bc3d54b47.js" crossorigin="anonymous"></script>
+    <!-- Compressed Foundation JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+        integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/3bc3d54b47.js" crossorigin="anonymous"></script>
 
-    </body>
+</body>
 
 </html>
