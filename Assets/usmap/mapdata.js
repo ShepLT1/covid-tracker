@@ -8,8 +8,8 @@ var simplemaps_usmap_mapdata={
     
 		//State defaults
 		state_description: "State description",
-    state_color: "#88A4BC",
-    state_hover_color: "#3B729F",
+    state_color: "#8f498f",
+    state_hover_color: "#753C75",
     state_url: "",
     border_size: 1.5,
     border_color: "#ffffff",
