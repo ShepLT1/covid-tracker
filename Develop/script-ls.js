@@ -19,6 +19,8 @@ $(document).ready(function() {
           method: "GET",
         }).then(function(response) {
 
+          console.log(response[0]);
+
           // cumulative death total
           var todayTotDeaths = response[0].death;
           // new deaths for current day
@@ -69,20 +71,40 @@ $(document).ready(function() {
           // formats to user-friendly date
           var formatTodayDate = currentMonth + "/" + currentDay + "/" + currentYear;
 
-          $("#updatedStatsDateSpan").text(formatTodayDate);
-          $("#todayTotPositiveSpan").text(todayTotPositive);
-          $("#todayIncPositiveSpan").text(todayIncPositive);
-          $("#todayTotDeathsSpan").text(todayTotDeaths);
-          $("#todayDailyDeathsSpan").text(todayDailyDeaths);
+          function NA(x) {
 
-          $("#todayTotPositiveSpan").text(todayTotPositive);
-          $("#todayTotNegativeSpan").text(todayTotNegative);
-          $("#todayTotTestsSpan").text(todayTotTests);
-          $("#todayIncTestsSpan").text(todayIncTests);
+            if (x === null) {
+      
+              x = "N/A"
 
-          $("#todayCurrHospitalSpan").text(todayCurrHospital);
-          $("#todayIncHospitalSpan").text(todayIncHospital);
-          $("#todayTotHospitalSpan").text(todayTotHospital);
+              return x;
+      
+            } else if (x < 0) {
+
+              x = 0;
+
+              return x;
+
+            }
+
+            return x;
+      
+          }
+
+          $("#updatedStatsDateSpan").text(NA(formatTodayDate));
+          $("#todayTotPositiveSpan").text(NA(todayTotPositive));
+          $("#todayIncPositiveSpan").text(NA(todayIncPositive));
+          $("#todayTotDeathsSpan").text(NA(todayTotDeaths));
+          $("#todayDailyDeathsSpan").text(NA(todayDailyDeaths));
+
+          $("#todayTotPositiveSpan").text(NA(todayTotPositive));
+          $("#todayTotNegativeSpan").text(NA(todayTotNegative));
+          $("#todayTotTestsSpan").text(NA(todayTotTests));
+          $("#todayIncTestsSpan").text(NA(todayIncTests));
+
+          $("#todayCurrHospitalSpan").text(NA(todayCurrHospital));
+          $("#todayIncHospitalSpan").text(NA(todayIncHospital));
+          $("#todayTotHospitalSpan").text(NA(todayTotHospital));
 
           var dateArr = [];
 
