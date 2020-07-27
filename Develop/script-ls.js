@@ -19,8 +19,6 @@ $(document).ready(function() {
           method: "GET",
         }).then(function(response) {
 
-          console.log(response[0]);
-
           // cumulative death total
           var todayTotDeaths = response[0].death;
           // new deaths for current day
@@ -128,7 +126,6 @@ $(document).ready(function() {
             // number of tests administered on this day
             var incTests = response[i].totalTestResultsIncrease;
 
-            console.log(incPositive, incTests);
             // pulls today's date from ajax call
             var date = JSON.stringify(response[i].date);
 
@@ -165,7 +162,6 @@ $(document).ready(function() {
 
             posTestRatioArr.push(posTestRatio);
 
-            console.log(formatDate, posTestRatio);
           }
 
           if (chart) {
