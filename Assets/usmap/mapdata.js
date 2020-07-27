@@ -8,8 +8,8 @@ var simplemaps_usmap_mapdata={
     
 		//State defaults
 		state_description: "State description",
-    state_color: "#88A4BC",
-    state_hover_color: "#3B729F",
+    state_color: "#8f498f",
+    state_hover_color: "#753C75",
     state_url: "",
     border_size: 1.5,
     border_color: "#ffffff",
@@ -27,8 +27,8 @@ var simplemaps_usmap_mapdata={
     location_border_color: "#FFFFFF",
     location_border: 2,
     location_hover_border: 2.5,
-    all_locations_inactive: "no",
-    all_locations_hidden: "no",
+    all_locations_inactive: "yes",
+    all_locations_hidden: "yes",
     
 		//Label defaults
 		label_color: "#ffffff",
@@ -62,7 +62,7 @@ var simplemaps_usmap_mapdata={
     popup_nocss: "no",
     
 		//Advanced settings
-		div: "map",
+		div: "landing-map",
     auto_load: "yes",
     rotate: "0",
     url_new_tab: "no",
@@ -78,7 +78,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     AK: {
       name: "Alaska",
@@ -86,7 +86,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     FL: {
       name: "Florida",
@@ -94,7 +94,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html",
+      url: "./dashboard.html",
       inactive: "no"
     },
     NH: {
@@ -103,7 +103,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     VT: {
       name: "Vermont",
@@ -111,7 +111,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     ME: {
       name: "Maine",
@@ -119,7 +119,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     RI: {
       name: "Rhode Island",
@@ -127,7 +127,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     NY: {
       name: "New York",
@@ -135,7 +135,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     PA: {
       name: "Pennsylvania",
@@ -143,7 +143,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     NJ: {
       name: "New Jersey",
@@ -151,7 +151,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url: "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     DE: {
       name: "Delaware",
@@ -159,7 +163,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     MD: {
       name: "Maryland",
@@ -167,7 +175,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     VA: {
       name: "Virginia",
@@ -175,7 +187,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url: "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     WV: {
       name: "West Virginia",
@@ -183,7 +199,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     OH: {
       name: "Ohio",
@@ -191,7 +211,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url: "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     IN: {
       name: "Indiana",
@@ -199,7 +223,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     IL: {
       name: "Illinois",
@@ -207,7 +235,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     CT: {
       name: "Connecticut",
@@ -215,7 +247,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     WI: {
       name: "Wisconsin",
@@ -223,7 +259,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     NC: {
       name: "North Carolina",
@@ -231,7 +271,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     DC: {
       name: "District of Columbia",
@@ -239,7 +279,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     MA: {
       name: "Massachusetts",
@@ -247,7 +291,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     TN: {
       name: "Tennessee",
@@ -255,7 +303,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     AR: {
       name: "Arkansas",
@@ -263,7 +315,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     MO: {
       name: "Missouri",
@@ -271,7 +327,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     GA: {
       name: "Georgia",
@@ -279,7 +339,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     SC: {
       name: "South Carolina",
@@ -287,7 +351,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     KY: {
       name: "Kentucky",
@@ -296,7 +364,11 @@ var simplemaps_usmap_mapdata={
       color: "default",
       zoomable: "no",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     AL: {
       name: "Alabama",
@@ -304,7 +376,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     LA: {
       name: "Louisiana",
@@ -312,7 +388,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     MS: {
       name: "Mississippi",
@@ -320,7 +400,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     IA: {
       name: "Iowa",
@@ -328,7 +412,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     MN: {
       name: "Minnesota",
@@ -336,7 +424,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     OK: {
       name: "Oklahoma",
@@ -344,7 +436,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     TX: {
       name: "Texas",
@@ -352,7 +448,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     NM: {
       name: "New Mexico",
@@ -360,7 +460,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     KS: {
       name: "Kansas",
@@ -368,7 +472,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     NE: {
       name: "Nebraska",
@@ -376,7 +484,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     SD: {
       name: "South Dakota",
@@ -384,7 +496,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     ND: {
       name: "North Dakota",
@@ -392,7 +508,11 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
+<<<<<<< HEAD
       url:  "../../dashboard.html"
+=======
+      url: "./dashboard.html"
+>>>>>>> 2e3e7152b019f256c23a09d617e9d041d5a43727
     },
     WY: {
       name: "Wyoming",
@@ -400,7 +520,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     MT: {
       name: "Montana",
@@ -408,7 +528,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     CO: {
       name: "Colorado",
@@ -416,7 +536,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     UT: {
       name: "Utah",
@@ -424,7 +544,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     AZ: {
       name: "Arizona",
@@ -432,7 +552,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     NV: {
       name: "Nevada",
@@ -440,7 +560,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     OR: {
       name: "Oregon",
@@ -448,7 +568,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     WA: {
       name: "Washington",
@@ -456,7 +576,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     CA: {
       name: "California",
@@ -464,7 +584,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     MI: {
       name: "Michigan",
@@ -472,7 +592,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     ID: {
       name: "Idaho",
@@ -480,7 +600,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html"
+      url: "./dashboard.html"
     },
     GU: {
       name: "Guam",
@@ -488,7 +608,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html",
+      url: "./dashboard.html",
       hide: "yes"
     },
     VI: {
@@ -497,7 +617,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html",
+      url: "./dashboard.html",
       hide: "yes"
     },
     PR: {
@@ -506,7 +626,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html",
+      url: "./dashboard.html",
       hide: "yes"
     },
     AS: {
@@ -515,7 +635,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html",
+      url: "./dashboard.html",
       hide: "yes"
     },
     MP: {
@@ -524,28 +644,28 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "../../index.html",
+      url: "./dashboard.html",
       hide: "yes"
     }
   },
   locations: {
-    "0": {
-      name: "New York",
-      lat: 40.71,
-      lng: -74,
-      description: "default",
-      color: "default",
-      url: "",
-      type: "default",
-      size: "default"
-    },
-    "1": {
-      name: "Anchorage",
-      lat: 61.2180556,
-      lng: -149.9002778,
-      color: "default",
-      type: "circle"
-    }
+    // "0": {
+    //   name: "New York",
+    //   lat: 40.71,
+    //   lng: -74,
+    //   description: "default",
+    //   color: "default",
+    //   url: "",
+    //   type: "default",
+    //   size: "default"
+    // },
+    // "1": {
+    //   name: "Anchorage",
+    //   lat: 61.2180556,
+    //   lng: -149.9002778,
+    //   color: "default",
+    //   type: "circle"
+    // }
   },
   labels: {
     NH: {

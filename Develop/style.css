@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Oleo Script', 'Verdana', cursive;
+}
+
 .simple-border {
   border: solid; 
   border-color: gray; 
@@ -117,8 +121,6 @@ a:hover {
     .h4, h4 {
         font-size: 1.4rem !important;
     }}
-
-
 
   /* for all devices (until the @media block) */
 
