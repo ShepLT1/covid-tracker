@@ -2,6 +2,8 @@ $(document).foundation();
 
 $(document).ready(function() {
 
+    var chart;
+
     $(".selector-dropdown").on("click", function(event) {
 
     event.preventDefault();
@@ -66,6 +68,21 @@ $(document).ready(function() {
 
         // formats to user-friendly date
         var formatTodayDate = currentMonth + "/" + currentDay + "/" + currentYear;
+
+        $("#updatedStatsDateSpan").text(formatTodayDate);
+        $("#todayTotPositiveSpan").text(todayTotPositive);
+        $("#todayIncPositiveSpan").text(todayIncPositive);
+        $("#todayTotDeathsSpan").text(todayTotDeaths);
+        $("#todayDailyDeathsSpan").text(todayDailyDeaths);
+
+        $("#todayTotPositiveSpan").text(todayTotPositive);
+        $("#todayTotNegativeSpan").text(todayTotNegative);
+        $("#todayTotTestsSpan").text(todayTotTests);
+        $("#todayIncTestsSpan").text(todayIncTests);
+
+        $("#todayCurrHospitalSpan").text(todayCurrHospital);
+        $("#todayIncHospitalSpan").text(todayIncHospital);
+        $("#todayTotHospitalSpan").text(todayTotHospital);
 
         var dateArr = [];
 
@@ -140,11 +157,15 @@ $(document).ready(function() {
 
         }
 
+        if (chart) {
+          
+          chart.destroy();
+
+        }
+
         var ctx = $('#myChart');
 
-        ctx.empty();
-
-        var chart = new Chart(ctx, {
+        chart = new Chart(ctx, {
     
           // The type of chart we want to create
           type: 'line',
