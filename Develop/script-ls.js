@@ -88,7 +88,7 @@ $(document).ready(function() {
 
           var posTestRatioArr = [];
 
-          for (i = 32; i > 0; i--) {
+          for (i = 31; i > 0; i--) {
 
             // cumulative death total
             var totDeaths = response[i].death;
@@ -181,7 +181,7 @@ $(document).ready(function() {
             data: {
               labels: dateArr,
               datasets: [{
-                  label: 'Percentage of daily positive tests per daily tests administered',
+                  label: '',
                   backgroundColor: 'transparent',
                   borderColor: 'blue',
                   data: posTestRatioArr,
@@ -190,11 +190,32 @@ $(document).ready(function() {
 
             // Configuration options go here
             options: {
+              title: {
+                display: true,
+                text: "Daily Positive Tests Per Daily Tests Administered",
+                fontSize: 24
+              },
+              legend: {
+                display: false,
+              },
               scales: {
                 yAxes: [{
-                    ticks: {
-                        stepSize: 2
+                  scaleLabel: {
+                    display: true,
+                    labelString: "Percentage (%)",
+                    fontSize: 16
+                  },
+                  ticks: {
+                      stepSize: 2
                     }
+                }],
+                xAxes: [{
+                  scaleLabel: {
+                    display: true,
+                    labelString: "Date (past 30 days)",
+                    fontSize: 16,
+                    padding: 0
+                  }
                 }]
               }
             }
