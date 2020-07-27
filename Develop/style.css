@@ -105,6 +105,10 @@ a:hover {
   border-radius: 1.3em 0 1.3em;
 }
 
+#top-alert-bar {
+margin-top: .5em;
+}
+
 #map {
   height: 100%;
 }
@@ -125,9 +129,8 @@ a:hover {
     }}
 
 
-
   /* for all devices (until the @media block) */
-
+/* 
   @media only screen and (max-width: 60em) {
     .dashboard-nav-card1 {
       float: right;
@@ -144,4 +147,4 @@ a:hover {
     clear: both;
     width: 100px;
   }
-}
+} */
