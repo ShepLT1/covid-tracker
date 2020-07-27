@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Oleo Script', cursive;
+}
+
 .simple-border {
   border: solid; 
   border-color: gray; 
