@@ -4,7 +4,7 @@ var simplemaps_usmap_mapdata={
 		width: "responsive", //or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
-    popups: "detect",
+    popups: "off",
     
 		//State defaults
 		state_description: "State description",
@@ -78,7 +78,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     AK: {
       name: "Alaska",
@@ -86,7 +86,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     FL: {
       name: "Florida",
@@ -94,7 +94,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html",
+      url: "./dashboard.html",
       inactive: "no"
     },
     NH: {
@@ -103,7 +103,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     VT: {
       name: "Vermont",
@@ -111,7 +111,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     ME: {
       name: "Maine",
@@ -119,7 +119,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     RI: {
       name: "Rhode Island",
@@ -127,7 +127,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     NY: {
       name: "New York",
@@ -135,7 +135,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     PA: {
       name: "Pennsylvania",
@@ -143,7 +143,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     NJ: {
       name: "New Jersey",
@@ -151,7 +151,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     DE: {
       name: "Delaware",
@@ -159,7 +159,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     MD: {
       name: "Maryland",
@@ -167,7 +167,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     VA: {
       name: "Virginia",
@@ -175,7 +175,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     WV: {
       name: "West Virginia",
@@ -183,7 +183,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     OH: {
       name: "Ohio",
@@ -191,7 +191,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     IN: {
       name: "Indiana",
@@ -199,7 +199,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     IL: {
       name: "Illinois",
@@ -207,7 +207,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     CT: {
       name: "Connecticut",
@@ -215,7 +215,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     WI: {
       name: "Wisconsin",
@@ -223,7 +223,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     NC: {
       name: "North Carolina",
@@ -231,7 +231,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     DC: {
       name: "District of Columbia",
@@ -239,7 +239,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     MA: {
       name: "Massachusetts",
@@ -247,7 +247,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     TN: {
       name: "Tennessee",
@@ -255,7 +255,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     AR: {
       name: "Arkansas",
@@ -263,7 +263,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     MO: {
       name: "Missouri",
@@ -271,7 +271,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     GA: {
       name: "Georgia",
@@ -279,7 +279,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     SC: {
       name: "South Carolina",
@@ -287,7 +287,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     KY: {
       name: "Kentucky",
@@ -296,7 +296,7 @@ var simplemaps_usmap_mapdata={
       color: "default",
       zoomable: "no",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     AL: {
       name: "Alabama",
@@ -304,7 +304,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     LA: {
       name: "Louisiana",
@@ -312,7 +312,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     MS: {
       name: "Mississippi",
@@ -320,7 +320,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     IA: {
       name: "Iowa",
@@ -328,7 +328,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     MN: {
       name: "Minnesota",
@@ -336,7 +336,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     OK: {
       name: "Oklahoma",
@@ -344,7 +344,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     TX: {
       name: "Texas",
@@ -352,7 +352,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     NM: {
       name: "New Mexico",
@@ -360,7 +360,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     KS: {
       name: "Kansas",
@@ -368,7 +368,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     NE: {
       name: "Nebraska",
@@ -376,7 +376,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     SD: {
       name: "South Dakota",
@@ -384,7 +384,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     ND: {
       name: "North Dakota",
@@ -392,7 +392,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     WY: {
       name: "Wyoming",
@@ -400,7 +400,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     MT: {
       name: "Montana",
@@ -408,7 +408,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     CO: {
       name: "Colorado",
@@ -416,7 +416,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     UT: {
       name: "Utah",
@@ -424,7 +424,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     AZ: {
       name: "Arizona",
@@ -432,7 +432,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     NV: {
       name: "Nevada",
@@ -440,7 +440,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     OR: {
       name: "Oregon",
@@ -448,7 +448,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     WA: {
       name: "Washington",
@@ -456,7 +456,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     CA: {
       name: "California",
@@ -464,7 +464,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     MI: {
       name: "Michigan",
@@ -472,7 +472,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     ID: {
       name: "Idaho",
@@ -480,7 +480,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html"
+      url: "./dashboard.html"
     },
     GU: {
       name: "Guam",
@@ -488,7 +488,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html",
+      url: "./dashboard.html",
       hide: "yes"
     },
     VI: {
@@ -497,7 +497,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html",
+      url: "./dashboard.html",
       hide: "yes"
     },
     PR: {
@@ -506,7 +506,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html",
+      url: "./dashboard.html",
       hide: "yes"
     },
     AS: {
@@ -515,7 +515,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html",
+      url: "./dashboard.html",
       hide: "yes"
     },
     MP: {
@@ -524,7 +524,7 @@ var simplemaps_usmap_mapdata={
       description: "default",
       color: "default",
       hover_color: "default",
-      url: "./index.html",
+      url: "./dashboard.html",
       hide: "yes"
     }
   },
