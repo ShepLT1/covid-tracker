@@ -20,10 +20,7 @@ background:rgb(117, 60, 117);
 border-radius: 0;
 margin-bottom: 1em;
 color: #fefefe;
-/* display: block; */
-display: flex;
-justify-items: center;
-align-items: center;
+display: block;
 min-height: 80px;
 box-shadow: .5em .5em .25em grey;
 position: relative;
@@ -118,9 +115,10 @@ margin-top: .5em;
     .h4, h4 {
         font-size: 1.4rem !important;
     }}
-/* 
-@media script and (min-width: 40em) {
+
+@media screen and (min-width: 40em) {
   .dashboard-nav-card {
-    min-height: 200px;
+    max-height: 100px;
+    min-height: 100px;
   }
-} */
+}
