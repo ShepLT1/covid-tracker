@@ -9,14 +9,10 @@
 * Each state has another data attribute: `data-state-abbr`. The data attribute corresponds to the abbreviation of the state name, in lowercase. World & Country do not have this data attribute.
 
 #### Top Alerts
-* Mask Advisory Cell (to toggle cell display if no information): `$("#maskAdvisoryCell")`
-* Mask Advisory Alert Span: `$("#maskAdvisorySpan")`
-* Social Distancing Cell (to toggle cell display if no information): `$("#socialDistancingCell")`
-* Social Distancing Advisory Alert Span: `$("#socialDistancingSpan")`
-* Travel Restrictions Cell (to toggle cell display if no information): `$("#travelRestrictionsCell")`
-* Travel Restrictions Alert Span: `$("#travelRestrictionsSpan")`
-* New Cases Trend Cell (to toggle cell display if no information): `$("#newCasesTrendCell")`
-* New Cases Trend Alert Span: `$("#newCasesTrendSpan")`
+* Mask Advisory Alert Button: `$("#maskAdvisoryButton")`
+* Social Distancing Advisory Alert Button: `$("#socialDistancingButton")`
+* Travel Restrictions Alert Button: `$("#travelRestrictionsButton")`
+* New Cases Trend Alert Button: `$("#newCasesTrendButton")`
 
 #### Stats Sidebar
 * Updated Stats Date Span (to let user know how recent data is): `($"#updatedStatsDateSpan")`
