@@ -20,7 +20,10 @@ background:rgb(117, 60, 117);
 border-radius: 0;
 margin-bottom: 1em;
 color: #fefefe;
-display: block;
+/* display: block; */
+display: flex;
+justify-items: center;
+align-items: center;
 min-height: 80px;
 box-shadow: .5em .5em .25em grey;
 position: relative;
@@ -40,18 +43,19 @@ transition: all 0.2s ease;
 
 .dashboard-nav-card-icon {
 font-size: 1.25rem;
-left: 1rem;
+/* left: 1rem; */
 opacity: 0.5;
-position: absolute;
-top: 1rem;
+/* position: absolute; */
+/* top: 1rem; */
 transition: all 0.2s ease;
 width: auto;
 }
 
 .dashboard-nav-card-title {
-bottom: 10;
-right: 1rem;
-text-align: center;
+/* bottom: 10; */
+/* right: 1rem; */
+margin: .3em;
+text-align: right;
 font-size: medium;
 }
 
