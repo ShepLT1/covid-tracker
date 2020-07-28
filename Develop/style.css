@@ -28,19 +28,6 @@ width: 100%;
 text-align: center;
 }
 
-
-.dashboard-nav-card1 {
-  background:rgb(117, 60, 117);
-  border-radius: 0;
-  margin-bottom: 1em;
-  color: #fefefe;
-  display: block;
-  min-height: 80px;
-  box-shadow: .5em .5em .25em grey;
-  position: relative;
-  width: 100%;
-  text-align: center;
-  }
 .dashboard-nav-card:hover .dashboard-nav-card-title,
 .dashboard-nav-card:hover .dashboard-nav-card-icon {
 color: #fefefe;
@@ -127,24 +114,3 @@ margin-top: .5em;
     .h4, h4 {
         font-size: 1.4rem !important;
     }}
-
-
-  /* for all devices (until the @media block) */
-/* 
-  @media only screen and (max-width: 60em) {
-    .dashboard-nav-card1 {
-      float: right;
-      width: 400px;
-      position: relative;
-      margin-top: 1em;
-      top: -13em;
-     ;
-    }
-  }
-@media only screen and (max-width: 60em) {
-  .dashboard-nav-card, .dashboard-nav-card1  {
-    align-items: center;
-    clear: both;
-    width: 100px;
-  }
-} */

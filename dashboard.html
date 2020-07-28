@@ -121,36 +121,32 @@
     <div class="grid-x grid-margin-x show-for-small-only hide-for-medium" id="alert-bar-small">
       <div class="cell small-6">
         <div class="grid-y">
-          <div class="cell small-auto" id="maskAdvisoryCell">
-            <a class="dashboard-nav-card">
+          <div class="cell small-auto">
+            <a class="dashboard-nav-card maskAdvisoryButton">
               <i class="dashboard-nav-card-icon fas fa-head-side-mask" aria-hidden="true"></i>
-              <h4 class="dashboard-nav-card-title">Mask Advisory: <span class="dashboard-nav-card-title"
-                  id="maskAdvisorySpan"></span></h4>
+              <h4 class="dashboard-nav-card-title">Mask Advisory Info</h4>
             </a>
           </div>
-          <div class="cell small-auto" id="socialDistancingCell">
-            <a class="dashboard-nav-card">
+          <div class="cell small-auto">
+            <a class="dashboard-nav-card socialDistancingButton">
               <i class="dashboard-nav-card-icon fas fa-people-arrows" aria-hidden="true"></i>
-              <h4 class="dashboard-nav-card-title">Social Distancing Requirements: <span
-                  class="dashboard-nav-card-title" id="socialDistancingSpan"></span></h4>
+              <h4 class="dashboard-nav-card-title">Social Distancing Requirements</h4>
             </a>
           </div>
         </div>
       </div>
       <div class="cell small-6">
         <div class="grid-y">
-          <div class="cell small-auto" id="travelRestrictionsCell">
-            <a class="dashboard-nav-card">
+          <div class="cell small-auto">
+            <a class="dashboard-nav-card travelRestrictionsButton">
               <i class="dashboard-nav-card-icon fas fa-plane-slash" aria-hidden="true"></i>
-              <h4 class="dashboard-nav-card-title">Travel Restrictions: <span class="dashboard-nav-card-title"
-                  id="travelRestrictionsSpan"></span></h4>
+              <h4 class="dashboard-nav-card-title">Travel Restrictions Info</h4>
             </a>
           </div>
-          <div class="cell small-auto" id="newCasesTrendCell">
-            <a class="dashboard-nav-card">
+          <div class="cell small-auto">
+            <a class="dashboard-nav-card newCasesTrendButton">
               <i class="dashboard-nav-card-icon fas fa-viruses" aria-hidden="true"></i>
-              <h4 class="dashboard-nav-card-title">Trend in new cases: <span class="dashboard-nav-card-title"
-                  id="newCasesTrendSpan"></span></h4>
+              <h4 class="dashboard-nav-card-title">Trend in new cases</h4>
             </a>
           </div>
         </div>
@@ -158,37 +154,34 @@
     </div>
 
     <div class="grid-x grid-margin-x hide-for-small-only show-for-medium" id="alert-bar-large">
-      <div class="cell medium-auto" id="maskAdvisoryCell">
-        <a class="dashboard-nav-card">
+      <div class="cell medium-auto">
+        <a class="dashboard-nav-card maskAdvisoryButton">
           <i class="dashboard-nav-card-icon fas fa-head-side-mask" aria-hidden="true"></i>
-          <h4 class="dashboard-nav-card-title">Mask Advisory: <span class="dashboard-nav-card-title"
-              id="maskAdvisorySpan"></span></h4>
+          <h4 class="dashboard-nav-card-title">Mask Advisory Info</span></h4>
         </a>
       </div>
-      <div class="cell medium-auto" id="socialDistancingCell">
-        <a class="dashboard-nav-card">
+      <div class="cell medium-auto">
+        <a class="dashboard-nav-card socialDistancingButton">
           <i class="dashboard-nav-card-icon fas fa-people-arrows" aria-hidden="true"></i>
-          <h4 class="dashboard-nav-card-title">Social Distancing Requirements: <span class="dashboard-nav-card-title"
-              id="socialDistancingSpan"></span></h4>
+          <h4 class="dashboard-nav-card-title">Social Distancing Requirements</h4>
         </a>
       </div>
-      <div class="cell medium-auto" id="travelRestrictionsCell">
-        <a class="dashboard-nav-card1">
+      <div class="cell medium-auto">
+        <a class="dashboard-nav-card travelRestrictionsButton">
           <i class="dashboard-nav-card-icon fas fa-plane-slash" aria-hidden="true"></i>
-          <h4 class="dashboard-nav-card-title">Travel Restrictions: <span class="dashboard-nav-card-title"
-              id="travelRestrictionsSpan"></span></h4>
+          <h4 class="dashboard-nav-card-title">Travel Restrictions Info</h4>
         </a>
       </div>
-      <div class="cell medium-auto" id="newCasesTrendCell">
-        <a class="dashboard-nav-card1">
+      <div class="cell medium-auto">
+        <a class="dashboard-nav-card newCasesTrendButton">
           <i class="dashboard-nav-card-icon fas fa-viruses" aria-hidden="true"></i>
-          <h4 class="dashboard-nav-card-title">Trend in new cases: <span class="dashboard-nav-card-title"
-              id="newCasesTrendSpan"></span></h4>
+          <h4 class="dashboard-nav-card-title">Trend in new cases</h4>
         </a>
       </div>
     </div>
   </div>
 
+  <!-- Main Grid -->
   <div class="grid-container fluid">
     <div class="grid-x grid-margin-x">
       <!-- Stats Sidebar -->
@@ -299,7 +292,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <!-- Team Scripts -->
   <script src="./Develop/script-ls.js"></script>
-  <script src="Develop/maptest.js"></script>
+  <script src="./Develop/alertbar.js"></script>
+  <script src="./Develop/maptest.js"></script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChs4wyhn9M-1Nl7QJkEInXTOy0p4347Jo&callback=initMap"></script>
 
