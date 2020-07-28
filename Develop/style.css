@@ -118,3 +118,9 @@ margin-top: .5em;
     .h4, h4 {
         font-size: 1.4rem !important;
     }}
+/* 
+@media script and (min-width: 40em) {
+  .dashboard-nav-card {
+    min-height: 200px;
+  }
+} */
