@@ -9,10 +9,10 @@
 * Each state has another data attribute: `data-state-abbr`. The data attribute corresponds to the abbreviation of the state name, in lowercase. World & Country do not have this data attribute.
 
 #### Top Alerts
-* Mask Advisory Alert Button: `$("#maskAdvisoryButton")`
-* Social Distancing Advisory Alert Button: `$("#socialDistancingButton")`
-* Travel Restrictions Alert Button: `$("#travelRestrictionsButton")`
-* New Cases Trend Alert Button: `$("#newCasesTrendButton")`
+* Mask Advisory Alert Button: `$(".maskAdvisoryButton")`
+* Social Distancing Advisory Alert Button: `$(".socialDistancingButton")`
+* Travel Restrictions Alert Button: `$(".travelRestrictionsButton")`
+* New Cases Trend Alert Button: `$(".newCasesTrendButton")`
 
 #### Stats Sidebar
 * Updated Stats Date Span (to let user know how recent data is): `($"#updatedStatsDateSpan")`
