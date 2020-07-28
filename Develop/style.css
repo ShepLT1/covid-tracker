@@ -40,18 +40,19 @@ transition: all 0.2s ease;
 
 .dashboard-nav-card-icon {
 font-size: 1.25rem;
-left: 1rem;
+/* left: 1rem; */
 opacity: 0.5;
-position: absolute;
-top: 1rem;
+/* position: absolute; */
+/* top: 1rem; */
 transition: all 0.2s ease;
 width: auto;
 }
 
 .dashboard-nav-card-title {
-bottom: 10;
-right: 1rem;
-text-align: center;
+/* bottom: 10; */
+/* right: 1rem; */
+margin: .3em;
+text-align: right;
 font-size: medium;
 }
 
@@ -114,3 +115,10 @@ margin-top: .5em;
     .h4, h4 {
         font-size: 1.4rem !important;
     }}
+
+@media screen and (min-width: 40em) {
+  .dashboard-nav-card {
+    max-height: 100px;
+    min-height: 100px;
+  }
+}
