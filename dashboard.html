@@ -21,12 +21,19 @@
   </div>
   <div class="top-bar" id="responsive-menu1">
     <div class="top-bar-left">
+      <!--Text for accessibility purposes.-->
+      <p class="show-for-sr">Welcome to the Covid-19 dashboard. This page will give you detailed information
+        about Covid-19 in your state or the entire United States. </p>
       <h1><strong>Covid-19 Dashboard</strong></h1>
     </div>
     <div class="top-bar-right">
       <ul class="dropdown menu" data-dropdown-menu>
-        <li><a href="#" class="selector-dropdown-world" data-location-name="World">World</a></li>
+        <!--Text for accessibility purposes.-->
+        <p class="show-for-sr">Click on country to hear the stats for the entire United States. </p>
         <li><a href="#" class="selector-dropdown-country" data-location-name="Country">Country</a></li>
+        <!--Text for accessibility purposes.-->
+        <p class="show-for-sr">Click on states and select your state from the dropdown menu to hear the stats for your
+          particular state. </p>
         <li class="has-submenu selector-dropdown-states"><a href="#">States</a>
           <ul class="submenu menu vertical scroll-list states-list" data-submenu>
             <li><a href="#" class="selector-dropdown" data-location-name="Alabama" data-state-abbr="al">Alabama</a></li>
@@ -158,24 +165,33 @@
         <a class="dashboard-nav-card maskAdvisoryButton">
           <i class="dashboard-nav-card-icon fas fa-head-side-mask" aria-hidden="true"></i>
           <h4 class="dashboard-nav-card-title">Mask Advisory Info</span></h4>
+          <!--Text for accessibility purposes.-->
+          <p class="show-for-sr">Click this link to be directed to more information about mask advisories.</p>
         </a>
       </div>
       <div class="cell medium-auto">
         <a class="dashboard-nav-card socialDistancingButton">
           <i class="dashboard-nav-card-icon fas fa-people-arrows" aria-hidden="true"></i>
           <h4 class="dashboard-nav-card-title">Social Distancing Requirements</h4>
+          <!--Text for accessibility purposes.-->
+          <p class="show-for-sr">Click this link to be directed to more information about social distancing guidelines.
+          </p>
         </a>
       </div>
       <div class="cell medium-auto">
         <a class="dashboard-nav-card travelRestrictionsButton">
           <i class="dashboard-nav-card-icon fas fa-plane-slash" aria-hidden="true"></i>
           <h4 class="dashboard-nav-card-title">Travel Restrictions Info</h4>
+          <!--Text for accessibility purposes.-->
+          <p class="show-for-sr">Click this link to be directed to more information about travel restrictions.</p>
         </a>
       </div>
       <div class="cell medium-auto">
         <a class="dashboard-nav-card newCasesTrendButton">
           <i class="dashboard-nav-card-icon fas fa-viruses" aria-hidden="true"></i>
           <h4 class="dashboard-nav-card-title">Trend in new cases</h4>
+          <!--Text for accessibility purposes.-->
+          <p class="show-for-sr">Click this link for more information on the trend in new cases.</p>
         </a>
       </div>
     </div>
@@ -188,6 +204,9 @@
       <div class="cell small-12 medium-3">
         <div class="card">
           <div class="card-section">
+            <!--Text for accessibility purposes.-->
+            <p class="show-for-sr">This is where you will hear the most recent statistics of
+              Covid-19 for your state or the entire country.</p>
             <h4>Updated Stats <span id="updatedStatsDateSpan"></span></h4>
             <p>Confirmed Total Cases: <span id="todayTotPositiveSpan"></span></p>
             <p>Daily New Cases: <span id="todayIncPositiveSpan"></span></p>
@@ -218,17 +237,23 @@
         <div class="grid-y grid-margin-y grid-padding-y">
           <!-- style="height: 60vh" -->
           <!-- Map Cell -->
-          <div class="cell medium-9">
-            <div class="responsive-embed simple-border">
-              <object width="420" height=auto id="map"></object>
+          <!--Map is hidden for accessibility-->
+          <div aria-hidden="true">
+            <div class="cell medium-9">
+              <div class="responsive-embed simple-border">
+                <object width="420" height=auto id="map"></object>
+              </div>
             </div>
           </div>
           <!-- Charts -->
-          <div class="cell medium-3">
-            <div class="responsive-embed">
-              <canvas id="myChart"></canvas>
-              <br>
-              <p>* Gaps in chart due to missing or inaccurate data</p>
+          <!--Map is hidden for accessibility-->
+          <div aria-hidden="true">
+            <div class="cell medium-3">
+              <div class="responsive-embed">
+                <canvas id="myChart"></canvas>
+                <br>
+                <p>* Gaps in chart due to missing or inaccurate data</p>
+              </div>
             </div>
           </div>
         </div>
@@ -240,6 +265,9 @@
           <div class="cell medium-10 medium-cell-block-y" id="newsArea">
             <div class="card" id="newsCard1">
               <div class="card-section">
+                <!--Text for accessibility letting users know this is the news area.-->
+                <p class="show-for-sr">This is where you will hear the most recent news regarding
+                  Covid-19.</p>
                 <h4>Latest News</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                   et dolore magna aliqua...</p>
@@ -264,13 +292,17 @@
           <div class="cell medium-2">
             <ul id="linksList">
               <li>
-                <a href="#">Link to CDC Info</a>
+                <a href="https://www.cdc.gov/">Link to CDC Info</a>
+                <!--Text for accessibility letting users know this is the news area.-->
+              <p class="show-for-sr">This is where you will find the link to the CDC.</p>
               </li>
               <li>
                 <a href="#">Link to Other COVID Info</a>
               </li>
               <li>
-                <a href="#">Link to README.md</a>
+                <a href="https://github.com/ShepLT1/covid-tracker/blob/master/README.md">Link to README.md</a>
+                <!--Text for accessibility letting users know this is the news area.-->
+              <p class="show-for-sr">This is where you will find the link to our read me page.</p>
               </li>
             </ul>
           </div>
