@@ -90,12 +90,12 @@ $(document).ready(function() {
           }
 
           $("#updatedStatsDateSpan").text(NA(formatTodayDate));
-          $("#todayTotPositiveSpan").text(NA(todayTotPositive));
+          $(".todayTotPositiveSpan").text(NA(todayTotPositive));
           $("#todayIncPositiveSpan").text(NA(todayIncPositive));
           $("#todayTotDeathsSpan").text(NA(todayTotDeaths));
           $("#todayDailyDeathsSpan").text(NA(todayDailyDeaths));
 
-          $("#todayTotPositiveSpan").text(NA(todayTotPositive));
+          $(".todayTotPositiveSpan").text(NA(todayTotPositive));
           $("#todayTotNegativeSpan").text(NA(todayTotNegative));
           $("#todayTotTestsSpan").text(NA(todayTotTests));
           $("#todayIncTestsSpan").text(NA(todayIncTests));
@@ -210,6 +210,7 @@ $(document).ready(function() {
 
             // Configuration options go here
             options: {
+              maintainAspectRatio: false,
               title: {
                 display: true,
                 text: "Daily Positive Tests Per Daily Tests Administered",
