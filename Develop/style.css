@@ -105,6 +105,22 @@ margin-top: .5em;
   margin: 10px;
 }
 
+#url0 {
+  color: purple ;
+  text-decoration: underline;
+}
+
+#url1 {
+  color: purple;
+  text-decoration: underline;
+}
+
+#url2 {
+  color: purple;
+  text-decoration: underline;
+}
+
+
 /* Overriding Foundation's default style for the alert cards */
 @media print, screen and (min-width: 40em) and (max-width: 60em){
     .h4, h4 {
