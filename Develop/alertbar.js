@@ -10,19 +10,21 @@ function setStateName() {
     if (stateAbbrev.length > 2) {
         stateAbbrev = stateAbbrev.substr(7, 2);
     }
-    console.log(stateAbbrev);
-
-    $(".selector-dropdown").each(function () {
-        console.log($(this))
-        // Find data-abbrev that matches stateAbbrev.
+    $(".selector-dropdown-country").each(function stateData() {
         if (stateAbbrev === this.dataset.stateAbbr) {
             var locationName = this.dataset.locationName;
             stateName.text(locationName);
-            console.log(locationName);
+            console.log("Changed to: " + locationName);
         }
-    })
-    // Get state title from same element.
-    // Display state title in stateName.  
+    });
+
+    $(".selector-dropdown").each(function stateData() {
+        if (stateAbbrev === this.dataset.stateAbbr) {
+            var locationName = this.dataset.locationName;
+            stateName.text(locationName);
+            console.log("Changed to: " + locationName);
+        }
+    });
 }
 
 // External Search Buttons for Alerts Bar
