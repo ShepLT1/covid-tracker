@@ -210,6 +210,7 @@ $(document).ready(function() {
 
             // Configuration options go here
             options: {
+              maintainAspectRatio: false,
               title: {
                 display: true,
                 text: "Daily Positive Tests Per Daily Tests Administered",
