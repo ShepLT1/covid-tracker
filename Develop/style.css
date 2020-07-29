@@ -2,6 +2,10 @@ h1 {
   font-family: 'Oleo Script', 'Verdana', cursive;
 }
 
+.stateName {
+  font-weight: bold;
+}
+
 .simple-border {
   border: solid; 
   border-color: gray; 
