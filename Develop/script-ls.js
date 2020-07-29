@@ -203,7 +203,7 @@ $(document).ready(function() {
               datasets: [{
                   label: '',
                   backgroundColor: 'transparent',
-                  borderColor: 'blue',
+                  borderColor: '#753C75',
                   data: posTestRatioArr,
               }]
             },
@@ -241,8 +241,6 @@ $(document).ready(function() {
               }
             }
           });
-
-          // find amount of ventilators or ICU beds available in each state, then compute current icu/availbe icu. ditto for ventilators
 
       })
 
