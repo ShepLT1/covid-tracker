@@ -2,6 +2,10 @@ h1 {
   font-family: 'Oleo Script', 'Verdana', cursive;
 }
 
+.stateName {
+  font-weight: bold;
+}
+
 .simple-border {
   border: solid; 
   border-color: gray; 
@@ -74,7 +78,7 @@ a {
 a:hover {
   color: gray
 }
-.selector-dropdown-world, .selector-dropdown-country, .selector-dropdown-states {
+.selector-dropdown-world, .selector-dropdown-country, .selector-dropdown-states #stateName-topBar {
  background-color: lavender;
  color: black;
  font-weight: bold;
