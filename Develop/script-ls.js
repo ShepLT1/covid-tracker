@@ -108,6 +108,10 @@ $(document).ready(function() {
 
           var posTestRatioArr = [];
 
+          var posTestArr = [];
+
+          var totTestArr = [];
+
           for (i = 31; i > 0; i--) {
 
             // cumulative death total
@@ -176,11 +180,15 @@ $(document).ready(function() {
 
             if (posTestRatio === 100 || posTestRatio > 100 || posTestRatio < 0 || incTests === 0) {
 
-              posTestRatio = NaN;
+              incPositive = NaN;
 
             }
 
             posTestRatioArr.push(posTestRatio);
+
+            posTestArr.push(incPositive);
+
+            totTestArr.push(incTests);
 
           }
 
@@ -201,19 +209,18 @@ $(document).ready(function() {
             data: {
               labels: dateArr,
               datasets: [{
-                  label: '',
+                  label: 'Daily Positive Tests',
                   backgroundColor: 'transparent',
                   borderColor: '#753C75',
-                  data: posTestRatioArr,
+                  data: posTestArr
               }]
             },
-
             // Configuration options go here
             options: {
               maintainAspectRatio: false,
               title: {
                 display: true,
-                text: "Daily Positive Tests Per Daily Tests Administered",
+                text: "Daily Positive Tests Over Last 30 Days",
                 fontSize: 24
               },
               legend: {
@@ -223,22 +230,37 @@ $(document).ready(function() {
                 yAxes: [{
                   scaleLabel: {
                     display: true,
-                    labelString: "Percentage (%)",
+                    labelString: "Daily Positive Tests",
                     fontSize: 16
                   },
                   ticks: {
-                      stepSize: 2
-                    }
+                    stepSize: 500
+                  }
                 }],
                 xAxes: [{
                   scaleLabel: {
                     display: true,
-                    labelString: "Date (past 30 days)",
+                    labelString: "Date",
                     fontSize: 16,
                     padding: 0
                   }
                 }]
-              }
+              },
+              tooltips: {
+                callbacks: {
+                    label: function(tooltipItem, data) {
+                        
+                      var percent =  posTestRatioArr[tooltipItem.index].toFixed(2);
+
+                      var pos = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
+
+                      var tot = totTestArr[tooltipItem.index];
+
+                      return "DPT per DTA: " + percent + "%" + "; DPT: " + pos + "; DTA: " + tot;
+
+                    }
+                }
+            }
             }
           });
 
