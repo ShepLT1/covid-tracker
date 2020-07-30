@@ -15,10 +15,14 @@
 
 <body>
   <!-- Nav Bar -->
-  <div class="title-bar" data-responsive-toggle="responsive-menu1" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle="responsive-menu1"></button>
-    <div class="title-bar-title">Menu</div>
-    <div class="title-bar-right"><span class="stateName"></span></div>
+  <div data-sticky-container>
+    <div class="show-for-small-only" data-sticky-on="small" data-sticky data-options="marginTop:0;" style="width: 100%;">
+      <div class="title-bar" data-responsive-toggle="responsive-menu1" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu1"></button>
+        <div class="title-bar-title">Menu</div>
+        <div class="title-bar-right"><span class="stateName"></span></div>
+      </div>
+    </div>
   </div>
   <div class="top-bar" id="responsive-menu1">
     <div class="top-bar-left">
@@ -32,7 +36,8 @@
         <li><a href="#" class="stateName" id="stateName-topBar"></a></li>
         <!--Text for accessibility purposes.-->
         <p class="show-for-sr">Click on country to hear the stats for the entire United States. </p>
-        <li><a href="#" class="selector-dropdown-country" data-location-name="United States" data-state-abbr="us">USA</a></li>
+        <li><a href="#" class="selector-dropdown-country" data-location-name="United States"
+            data-state-abbr="us">USA</a></li>
         <!--Text for accessibility purposes.-->
         <p class="show-for-sr">Click on states and select your state from the dropdown menu to hear the stats for your
           particular state. </p>
@@ -323,21 +328,21 @@
                   Covid-19.</p>
                 <h4 class="h4" id="headline0"></h4>
                 <p id="description0"> </p>
-                  <a href= "" id="url0"></a>
+                <a href="" id="url0"></a>
               </div>
             </div>
             <div class="card" id="newsCard2">
               <div class="card-section">
                 <h4 class="h4" id="headline1"></h4>
                 <p id="description1"></p>
-                  <a href= "" id="url1"></a>
+                <a href="" id="url1"></a>
               </div>
             </div>
             <div class="card" id="newsCard3">
               <div class="card-section">
                 <h4 class="h4" id="headline2"></h4>
                 <p id="description2"></p>
-                  <a href= "" id="url2"></a>
+                <a href="" id="url2"></a>
               </div>
             </div>
           </div>
