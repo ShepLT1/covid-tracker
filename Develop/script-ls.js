@@ -112,6 +112,8 @@ $(document).ready(function() {
 
           var totTestArr = [];
 
+          var upperLimit = 0;
+
           for (i = 31; i > 0; i--) {
 
             // cumulative death total
@@ -184,6 +186,17 @@ $(document).ready(function() {
 
             }
 
+            if (incPositive !== NaN) {
+              
+              if (incPositive > upperLimit) {
+
+              upperLimit = incPositive;
+
+              }
+
+              console.log("yes");
+            }
+
             posTestRatioArr.push(posTestRatio);
 
             posTestArr.push(incPositive);
@@ -191,6 +204,10 @@ $(document).ready(function() {
             totTestArr.push(incTests);
 
           }
+
+          console.log(upperLimit);
+
+          var step = (upperLimit / 10).toFixed(0);
 
           if (chart) {
             
@@ -234,7 +251,7 @@ $(document).ready(function() {
                     fontSize: 16
                   },
                   ticks: {
-                    stepSize: 500
+                    stepSize: step
                   }
                 }],
                 xAxes: [{
