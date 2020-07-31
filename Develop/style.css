@@ -78,7 +78,7 @@ a {
 a:hover {
   color: gray
 }
-.stateName, .selector-dropdown-country, .selector-dropdown-states, #stateName-topBar {
+.selector-dropdown-country, .selector-dropdown-states, #stateName-topBar {
  background-color: lavender;
  color: black;
  font-weight: bold;
