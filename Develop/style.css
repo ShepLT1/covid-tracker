@@ -115,7 +115,8 @@ margin-top: .5em;
 }
 
 #chart-legend {
-  font-size: 85%;
+  font-size: 80%;
+  margin: 0;
 }
 
 

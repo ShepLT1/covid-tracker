@@ -194,7 +194,6 @@ $(document).ready(function() {
 
               }
 
-              console.log("yes");
             }
 
             posTestRatioArr.push(posTestRatio);
