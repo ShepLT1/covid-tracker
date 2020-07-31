@@ -25,6 +25,14 @@ SO THAT I can make informed decisions when planning my day.
 ![indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/index.png)
 [indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
 
+## Tools Used:
+
+* HTML
+* CSS
+* JavaScript
+* Foundation
+* SimpleMaps.com
+
 ## APIs
 
 * TrackCorona.live  API (City Level Data)
@@ -62,7 +70,7 @@ WHEN The regulations section loads,
 THEN Search results on Google for the state will show related with regulation.
 
 API ©Copyright
--TrackCorona
--Google Map
--New York Times
--The COVID Tracking Project
+* TrackCorona
+* Google Map
+* New York Times
+* The COVID Tracking Project
