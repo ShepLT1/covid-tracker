@@ -100,19 +100,19 @@ $(document).ready(function() {
           }
 
           $("#updatedStatsDateSpan").text(NA(formatTodayDate));
-          $(".todayTotPositiveSpan").text(NA(todayTotPositive));
-          $("#todayIncPositiveSpan").text(NA(todayIncPositive));
-          $("#todayTotDeathsSpan").text(NA(todayTotDeaths));
-          $("#todayDailyDeathsSpan").text(NA(todayDailyDeaths));
+          $(".todayTotPositiveSpan").text(NA(todayTotPositive.toLocaleString()));
+          $("#todayIncPositiveSpan").text(NA(todayIncPositive.toLocaleString()));
+          $("#todayTotDeathsSpan").text(NA(todayTotDeaths.toLocaleString()));
+          $("#todayDailyDeathsSpan").text(NA(todayDailyDeaths.toLocaleString()));
 
-          $(".todayTotPositiveSpan").text(NA(todayTotPositive));
-          $("#todayTotNegativeSpan").text(NA(todayTotNegative));
-          $("#todayTotTestsSpan").text(NA(todayTotTests));
-          $("#todayIncTestsSpan").text(NA(todayIncTests));
+          $(".todayTotPositiveSpan").text(NA(todayTotPositive.toLocaleString()));
+          $("#todayTotNegativeSpan").text(NA(todayTotNegative.toLocaleString()));
+          $("#todayTotTestsSpan").text(NA(todayTotTests.toLocaleString()));
+          $("#todayIncTestsSpan").text(NA(todayIncTests.toLocaleString()));
 
-          $("#todayCurrHospitalSpan").text(NA(todayCurrHospital));
-          $("#todayIncHospitalSpan").text(NA(todayIncHospital));
-          $("#todayTotHospitalSpan").text(NA(todayTotHospital));
+          $("#todayCurrHospitalSpan").text(NA(todayCurrHospital.toLocaleString()));
+          $("#todayIncHospitalSpan").text(NA(todayIncHospital.toLocaleString()));
+          $("#todayTotHospitalSpan").text(NA(todayTotHospital.toLocaleString()));
 
           var dateArr = [];
 
