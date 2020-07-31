@@ -25,6 +25,14 @@ SO THAT I can make informed decisions when planning my day.
 ![indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/index.png)
 [indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
 
+## Tools Used:
+
+* HTML
+* CSS
+* JavaScript
+* Foundation
+* SimpleMaps.com
+
 ## APIs
 
 * TrackCorona.live  API (City Level Data)

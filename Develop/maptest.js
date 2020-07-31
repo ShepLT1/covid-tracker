@@ -49,7 +49,7 @@ var states = [
     latitude: 38.500000,
     longitude: -98.000000},
   {state: "ky",
-    latitude: 7.839333,
+    latitude: 37.839333,
     longitude: -84.270020},
   {state: "la",
     latitude: 30.391830,
