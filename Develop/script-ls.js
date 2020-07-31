@@ -304,7 +304,6 @@ $(document).ready(function() {
             if (stateAbbrev === this.dataset.stateAbbr) {
                 var locationName = this.dataset.locationName;
                 stateName.text(locationName);
-                console.log("Changed to: " + locationName);
             }
         });
 
@@ -312,14 +311,14 @@ $(document).ready(function() {
             if (stateAbbrev === this.dataset.stateAbbr) {
                 var locationName = this.dataset.locationName;
                 stateName.text(locationName);
-                console.log("Changed to: " + locationName);
             }
         });
     }
 
     // External Search Buttons for Alerts Bar
     function runYourSearch(search) {
-        var googleURL = "https://www.google.com/search?q=Covid+%2B+" + $("#stateName-topBar").text() + "+%2B+" + search;
+        var fullName = localStorage.getItem("Full Name");
+        var googleURL = "https://www.google.com/search?q=Covid+" + fullName + "+" + search;
         window.open(googleURL, '_blank');
     }
 
@@ -347,7 +346,11 @@ $(document).ready(function() {
 
         var stateAbr = $(this).attr("data-state-abbr");
 
+        var state = $(this).attr("data-location-name");
+
         localStorage.setItem("Abbreviation", "states/" + stateAbr);
+
+        localStorage.setItem("Full Name", state);
 
         queryURL = "https://covidtracking.com/api/v1/states/" + stateAbr + "/daily.json";
 
@@ -362,6 +365,8 @@ $(document).ready(function() {
       event.preventDefault();
 
       localStorage.setItem("Abbreviation", "us");
+
+      localStorage.setItem("Full Name", "United States");
 
       queryURL = "https://covidtracking.com/api/v1/us/daily.json";
 
