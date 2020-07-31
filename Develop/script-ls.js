@@ -79,6 +79,7 @@ $(document).ready(function() {
           // formats to user-friendly date
           var formatTodayDate = currentMonth + "/" + currentDay + "/" + currentYear;
 
+          // States 'N/A' if no stat present
           function NA(x) {
 
             if (x === null) {
@@ -124,6 +125,7 @@ $(document).ready(function() {
 
           var upperLimit = 0;
 
+          // Gets state/US data from past 30 days
           for (i = 31; i > 0; i--) {
 
             // cumulative death total
@@ -190,12 +192,14 @@ $(document).ready(function() {
 
             posTestRatio = (incPositive/incTests) * 100;
 
+            // Removes bad/missing chart data
             if (posTestRatio === 100 || posTestRatio > 100 || posTestRatio < 0 || incTests === 0) {
 
               incPositive = NaN;
 
             }
 
+            // Grabs maximum y axis value while ignoring bad/missing data values
             if (incPositive !== NaN) {
               
               if (incPositive > upperLimit) {
@@ -214,16 +218,17 @@ $(document).ready(function() {
 
           }
 
-          console.log(upperLimit);
-
+          // sets chart y axis step number dynamically
           var step = (upperLimit / 10).toFixed(0);
 
+          // Removes previous chart if it exists
           if (chart) {
             
             chart.destroy();
 
           }
 
+          // Creates new chart
           var ctx = $('#myChart');
 
           chart = new Chart(ctx, {
@@ -272,6 +277,7 @@ $(document).ready(function() {
                   }
                 }]
               },
+              // tooltip options here
               tooltips: {
                 displayColors: false,
                 callbacks: {
@@ -301,6 +307,7 @@ $(document).ready(function() {
 
     }
 
+    // Checks local storage abbreviation against full state/country name
     function setStateName() {
         var stateAbbrev = localStorage.getItem("Abbreviation");
 
@@ -347,6 +354,7 @@ $(document).ready(function() {
 
     getData();
 
+    // Runs data and state name retrieval/pasting on nav bar selection
     $(".selector-dropdown").on("click", function(event) {
 
         event.preventDefault();
@@ -367,6 +375,7 @@ $(document).ready(function() {
 
     })
 
+    // Runs data and US name retrieval/pasting on nav bar selection
     $(".selector-dropdown-country").on("click", function(event) {
 
       event.preventDefault();
