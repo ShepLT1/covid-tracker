@@ -273,6 +273,7 @@ $(document).ready(function() {
                 }]
               },
               tooltips: {
+                displayColors: false,
                 callbacks: {
                     label: function(tooltipItem, data) {
                         
@@ -282,7 +283,13 @@ $(document).ready(function() {
 
                       var tot = totTestArr[tooltipItem.index];
 
-                      return "DPT per DTA: " + percent + "%" + "; DPT: " + pos + "; DTA: " + tot;
+                      var multistringText = ["DPT per DTA: " + percent + "%"];
+            
+                      multistringText.push("DPT: " + pos);
+
+                      multistringText.push("DTA: " + tot);
+          
+                      return multistringText;
 
                     }
                 }
