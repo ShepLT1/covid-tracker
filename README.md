@@ -62,7 +62,7 @@ WHEN The regulations section loads,
 THEN Search results on Google for the state will show related with regulation.
 
 API ©Copyright
--TrackCorona
--Google Map
--New York Times
--The COVID Tracking Project
+* TrackCorona
+* Google Map
+* New York Times
+* The COVID Tracking Project
