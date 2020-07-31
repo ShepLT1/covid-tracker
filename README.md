@@ -1,7 +1,5 @@
 # covid-tracker
 
-# covid-tracker
-
 ### Team:
 | Frontend:      | Backend:       |
 | -------------- | -------------- |
@@ -24,13 +22,8 @@ I WANT to easily access up-to-date information in one page
 
 SO THAT I can make informed decisions when planning my day.
 ```
-
-
-
-User Flow - Landing Page, search for city, then pull up dashboard. 
-
-![dashboard-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard-screenshot.jpg)
-[Link to Wireframe File](https://drive.google.com/file/d/1cg9Mt5OtGMO443ljs54syF3Wgxa8wAZp/view?usp=sharing) - Open with Draw.io!
+![indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/index.png)
+[indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
 
 ## APIs
 
@@ -68,3 +61,8 @@ THEN The user is taken to supporting data/articles.
 WHEN The regulations section loads,
 THEN Search results on Google for the state will show related with regulation.
 
+API ©Copyright
+-TrackCorona
+-Google Map
+-New York Times
+-The COVID Tracking Project
