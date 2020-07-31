@@ -78,7 +78,7 @@ a {
 a:hover {
   color: gray
 }
-.stateName, .selector-dropdown-country, .selector-dropdown-states, #stateName-topBar {
+.selector-dropdown-country, .selector-dropdown-states, #stateName-topBar {
  background-color: lavender;
  color: black;
  font-weight: bold;
@@ -109,18 +109,8 @@ margin-top: .5em;
   margin: 10px;
 }
 
-#url0 {
+#url0, #url1, #url2 {
   color: purple ;
-  text-decoration: underline;
-}
-
-#url1 {
-  color: purple;
-  text-decoration: underline;
-}
-
-#url2 {
-  color: purple;
   text-decoration: underline;
 }
 
@@ -131,7 +121,7 @@ margin-top: .5em;
 
 
 /* Overriding Foundation's default style for the alert cards */
-@media print, screen and (min-width: 40em) and (max-width: 60em){
+@media print, screen and (min-width: 47em) and (max-width: 60em){
     .h4, h4 {
         font-size: 1.125rem !important;
 }}
@@ -140,10 +130,3 @@ margin-top: .5em;
     .h4, h4 {
         font-size: 1.4rem !important;
     }}
-
-@media screen and (min-width: 40em) {
-  .dashboard-nav-card {
-    max-height: 100px;
-    min-height: 100px;
-  }
-}
