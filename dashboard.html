@@ -25,105 +25,107 @@
     </div>
   </div>
   <div class="top-bar" id="responsive-menu1">
-    <div class="top-bar-left">
+    <div class="top-bar-left" style="max-width: 40vw;">
       <!--Text for accessibility purposes.-->
       <p class="show-for-sr">Welcome to the Covid-19 dashboard. This page will give you detailed information
         about Covid-19 in your state or the entire United States. </p>
-      <h1><a class="h1" href="https://sheplt1.github.io/covid-tracker/index.html"><strong>Covid-19 Dashboard</strong></a></h1>
+      <h1><a class="h1" tabindex="0" href="./index.html"><strong>Covid-19 Dashboard</strong></a></h1>
+    </div>
+    <div class="top-bar-title">
+      <h1 class="stateName" id="stateName-topBar"></h1>
     </div>
     <div class="top-bar-right">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li><a href="#" class="stateName" id="stateName-topBar"></a></li>
+      <ul class="dropdown menu float-right" data-dropdown-menu>
         <!--Text for accessibility purposes.-->
         <p class="show-for-sr">Click on country to hear the stats for the entire United States. </p>
-        <li><a href="#" class="selector-dropdown-country" data-location-name="United States"
+        <li><a href="#" class="selector-dropdown-country" tabindex="0" data-location-name="United States"
             data-state-abbr="us">USA</a></li>
         <!--Text for accessibility purposes.-->
         <p class="show-for-sr">Click on states and select your state from the dropdown menu to hear the stats for your
           particular state. </p>
-        <li class="has-submenu selector-dropdown-states"><a href="#">States</a>
+        <li class="has-submenu selector-dropdown-states"><a href="#" tabindex="0">States</a>
           <ul class="submenu menu vertical scroll-list states-list" data-submenu>
-            <li><a href="#" class="selector-dropdown" data-location-name="Alabama" data-state-abbr="al">Alabama</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Alaska" data-state-abbr="ak">Alaska</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Arizona" data-state-abbr="az">Arizona</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Arkansas" data-state-abbr="ar">Arkansas</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Alabama" data-state-abbr="al">Alabama</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Alaska" data-state-abbr="ak">Alaska</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Arizona" data-state-abbr="az">Arizona</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Arkansas" data-state-abbr="ar">Arkansas</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="California"
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="California"
                 data-state-abbr="ca">California</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Colorado" data-state-abbr="co">Colorado</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Colorado" data-state-abbr="co">Colorado</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Connecticut"
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Connecticut"
                 data-state-abbr="ct">Connecticut</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Delaware" data-state-abbr="de">Delaware</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Delaware" data-state-abbr="de">Delaware</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Florida" data-state-abbr="fl">Florida</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Georgia" data-state-abbr="ga">Georgia</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Hawaii" data-state-abbr="hi">Hawaii</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Idaho" data-state-abbr="id">Idaho</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Illinois" data-state-abbr="il">Illinois</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Florida" data-state-abbr="fl">Florida</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Georgia" data-state-abbr="ga">Georgia</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Hawaii" data-state-abbr="hi">Hawaii</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Idaho" data-state-abbr="id">Idaho</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Illinois" data-state-abbr="il">Illinois</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Indiana" data-state-abbr="in">Indiana</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Iowa" data-state-abbr="ia">Iowa</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Kansas" data-state-abbr="ks">Kansas</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Kentucky" data-state-abbr="ky">Kentucky</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Indiana" data-state-abbr="in">Indiana</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Iowa" data-state-abbr="ia">Iowa</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Kansas" data-state-abbr="ks">Kansas</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Kentucky" data-state-abbr="ky">Kentucky</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Louisiana" data-state-abbr="la">Louisiana</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Louisiana" data-state-abbr="la">Louisiana</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Maine" data-state-abbr="me">Maine</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Maryland" data-state-abbr="md">Maryland</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Maine" data-state-abbr="me">Maine</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Maryland" data-state-abbr="md">Maryland</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Massachusetts"
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Massachusetts"
                 data-state-abbr="ma">Massachusetts</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Michigan" data-state-abbr="mi">Michigan</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Michigan" data-state-abbr="mi">Michigan</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Minnesota" data-state-abbr="mn">Minnesota</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Minnesota" data-state-abbr="mn">Minnesota</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Mississippi"
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Mississippi"
                 data-state-abbr="ms">Mississippi</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Missouri" data-state-abbr="mo">Missouri</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Missouri" data-state-abbr="mo">Missouri</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Montana" data-state-abbr="mt">Montana</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Nebraska" data-state-abbr="ne">Nebraska</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Montana" data-state-abbr="mt">Montana</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Nebraska" data-state-abbr="ne">Nebraska</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Nevada" data-state-abbr="nv">Nevada</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="New Hampshire" data-state-abbr="nh">New
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Nevada" data-state-abbr="nv">Nevada</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="New Hampshire" data-state-abbr="nh">New
                 Hampshire</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="New Jersey" data-state-abbr="nj">New
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="New Jersey" data-state-abbr="nj">New
                 Jersey</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="New Mexico" data-state-abbr="nm">New
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="New Mexico" data-state-abbr="nm">New
                 Mexico</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="New York" data-state-abbr="ny">New York</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="New York" data-state-abbr="ny">New York</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="North Carolina" data-state-abbr="nc">North
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="North Carolina" data-state-abbr="nc">North
                 Carolina</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="North Dakota" data-state-abbr="nd">North
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="North Dakota" data-state-abbr="nd">North
                 Dakota</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Ohio" data-state-abbr="oh">Ohio</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Oklahoma" data-state-abbr="ok">Oklahoma</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Ohio" data-state-abbr="oh">Ohio</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Oklahoma" data-state-abbr="ok">Oklahoma</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Oregon" data-state-abbr="or">Oregon</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Pennsylvania"
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Oregon" data-state-abbr="or">Oregon</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Pennsylvania"
                 data-state-abbr="pa">Pennsylvania</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Rhode Island" data-state-abbr="ri">Rhode
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Rhode Island" data-state-abbr="ri">Rhode
                 Island</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="South Carolina" data-state-abbr="sc">South
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="South Carolina" data-state-abbr="sc">South
                 Carolina</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="South Dakota" data-state-abbr="sd">South
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="South Dakota" data-state-abbr="sd">South
                 Dakota</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Tennessee" data-state-abbr="tn">Tennessee</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Tennessee" data-state-abbr="tn">Tennessee</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Texas" data-state-abbr="tx">Texas</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Utah" data-state-abbr="ut">Utah</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Vermont" data-state-abbr="vt">Vermont</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Virginia" data-state-abbr="va">Virginia</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Texas" data-state-abbr="tx">Texas</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Utah" data-state-abbr="ut">Utah</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Vermont" data-state-abbr="vt">Vermont</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Virginia" data-state-abbr="va">Virginia</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Washington"
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Washington"
                 data-state-abbr="wa">Washington</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="West Virginia" data-state-abbr="wv">West
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="West Virginia" data-state-abbr="wv">West
                 Virginia</a></li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Wisconsin" data-state-abbr="wi">Wisconsin</a>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Wisconsin" data-state-abbr="wi">Wisconsin</a>
             </li>
-            <li><a href="#" class="selector-dropdown" data-location-name="Wyoming" data-state-abbr="wy">Wyoming</a></li>
+            <li><a href="#" class="selector-dropdown" tabindex="0" data-location-name="Wyoming" data-state-abbr="wy">Wyoming</a></li>
           </ul>
         </li>
       </ul>
@@ -132,11 +134,11 @@
 
   <!-- Foundation Top Alerts Bar -->
   <div class="grid-container fluid" id="top-alert-bar">
-    <div class="grid-x grid-margin-x show-for-small-only hide-for-medium" id="alert-bar-small">
+    <div class="grid-x grid-margin-x show-for-small-only hide-for-medium" id="alert-bar-small" data-equalizer="small-alert">
       <div class="cell small-6">
         <div class="grid-y">
           <div class="cell small-auto">
-            <a class="dashboard-nav-card maskAdvisoryButton">
+            <a class="dashboard-nav-card maskAdvisoryButton" tabindex="0" data-equalizer-watch="small-alert">
               <div class="grid-x align-center-middle">
                 <div class="cell small-3">
                   <i class="dashboard-nav-card-icon fas fa-head-side-mask" aria-hidden="true"></i>
@@ -149,7 +151,7 @@
             </a>
           </div>
           <div class="cell small-auto">
-            <a class="dashboard-nav-card socialDistancingButton">
+            <a class="dashboard-nav-card socialDistancingButton" tabindex="0" data-equalizer-watch="small-alert">
               <div class="grid-x align-center-middle">
                 <div class="cell small-3">
                   <i class="dashboard-nav-card-icon fas fa-people-arrows" aria-hidden="true"></i>
@@ -165,7 +167,7 @@
       <div class="cell small-6">
         <div class="grid-y">
           <div class="cell small-auto">
-            <a class="dashboard-nav-card travelRestrictionsButton">
+            <a class="dashboard-nav-card travelRestrictionsButton" tabindex="0" data-equalizer-watch="small-alert">
               <div class="grid-x align-center-middle">
                 <div class="cell small-3">
                   <i class="dashboard-nav-card-icon fas fa-plane-slash" aria-hidden="true"></i>
@@ -177,7 +179,7 @@
             </a>
           </div>
           <div class="cell small-auto">
-            <a class="dashboard-nav-card newCasesTrendButton">
+            <a class="dashboard-nav-card newCasesTrendButton" tabindex="0" data-equalizer-watch="small-alert">
               <div class="grid-x align-center-middle">
                 <div class="cell small-3">
                   <i class="dashboard-nav-card-icon fas fa-viruses" aria-hidden="true"></i>
@@ -192,9 +194,9 @@
       </div>
     </div>
 
-    <div class="grid-x grid-margin-x hide-for-small-only show-for-medium" id="alert-bar-large">
+    <div class="grid-x grid-margin-x hide-for-small-only show-for-medium" data-equalizer="medium-alert" id="alert-bar-large">
       <div class="cell medium-auto">
-        <a class="dashboard-nav-card maskAdvisoryButton">
+        <a class="dashboard-nav-card maskAdvisoryButton" tabindex="0" data-equalizer-watch="medium-alert">
           <div class="grid-x align-center-middle">
             <div class="cell medium-3">
               <i class="dashboard-nav-card-icon fas fa-head-side-mask" aria-hidden="true"></i>
@@ -208,7 +210,7 @@
         </a>
       </div>
       <div class="cell medium-auto">
-        <a class="dashboard-nav-card socialDistancingButton">
+        <a class="dashboard-nav-card socialDistancingButton" tabindex="0" data-equalizer-watch="medium-alert">
           <div class="grid-x align-center-middle">
             <div class="cell medium-3">
               <i class="dashboard-nav-card-icon fas fa-people-arrows" aria-hidden="true"></i>
@@ -223,7 +225,7 @@
         </a>
       </div>
       <div class="cell medium-auto">
-        <a class="dashboard-nav-card travelRestrictionsButton">
+        <a class="dashboard-nav-card travelRestrictionsButton" tabindex="0" data-equalizer-watch="medium-alert">
           <div class="grid-x align-center-middle">
             <div class="cell medium-3">
               <i class="dashboard-nav-card-icon fas fa-plane-slash" aria-hidden="true"></i>
@@ -237,7 +239,7 @@
         </a>
       </div>
       <div class="cell medium-auto">
-        <a class="dashboard-nav-card newCasesTrendButton">
+        <a class="dashboard-nav-card newCasesTrendButton" tabindex="0" data-equalizer-watch="medium-alert">
           <div class="grid-x align-center-middle">
             <div class="cell medium-3">
               <i class="dashboard-nav-card-icon fas fa-viruses" aria-hidden="true"></i>
@@ -328,21 +330,21 @@
                   Covid-19.</p>
                 <h4 class="h4" id="headline0"></h4>
                 <p id="description0"> </p>
-                <a href="" id="url0"></a>
+                <a href="" tabindex="0" id="url0"></a>
               </div>
             </div>
             <div class="card" id="newsCard2">
               <div class="card-section">
                 <h4 class="h4" id="headline1"></h4>
                 <p id="description1"></p>
-                <a href="" id="url1"></a>
+                <a href="" tabindex="0" id="url1"></a>
               </div>
             </div>
             <div class="card" id="newsCard3">
               <div class="card-section">
                 <h4 class="h4" id="headline2"></h4>
                 <p id="description2"></p>
-                <a href="" id="url2"></a>
+                <a href="" tabindex="0" id="url2"></a>
               </div>
             </div>
           </div>
@@ -350,17 +352,17 @@
           <div class="cell medium-2">
             <ul id="linksList">
               <li>
-                <a href="https://www.cdc.gov/">Link to CDC Info</a>
+                <a href="https://www.cdc.gov/" tabindex="0">Link to CDC Info</a>
                 <!--Text for accessibility letting users know this is the news area.-->
                 <p class="show-for-sr">This is where you will find the link to the CDC.</p>
               </li>
               <li>
-                <a href="https://www.usa.gov/disaster-help-food-housing-bills">Disaster Financial Assistance to Help with Food, Housing and Bills</a>
+                <a href="https://www.usa.gov/disaster-help-food-housing-bills" tabindex="0">Disaster Financial Assistance to Help with Food, Housing and Bills</a>
                   <!--Text for accessibility letting users know this is the news area.-->
                 <p class="show-for-sr">This is where you will find a link to find disaster financial assistance to help with food, housing and bills.</p>
               </li>
               <li>
-                <a href="https://github.com/ShepLT1/covid-tracker/blob/master/README.md">Link to README.md</a>
+                <a href="https://github.com/ShepLT1/covid-tracker/blob/master/README.md" tabindex="0">Link to README.md</a>
                 <!--Text for accessibility letting users know this is the news area.-->
                 <p class="show-for-sr">This is where you will find the link to our read me page.</p>
               </li>
@@ -384,7 +386,6 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <!-- Team Scripts -->
   <script src="./Develop/script-ls.js"></script>
-  <script src="./Develop/alertbar.js"></script>
   <script src="./Develop/maptest.js"></script>
   <script src="./Develop/covid-News.js"></script>
   <script async defer

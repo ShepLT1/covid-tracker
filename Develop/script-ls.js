@@ -319,11 +319,7 @@ $(document).ready(function() {
 
     // External Search Buttons for Alerts Bar
     function runYourSearch(search) {
-        var stateAbbrev = localStorage.getItem("Abbreviation");
-        if (stateAbbrev.length > 2) {
-            stateAbbrev = stateAbbrev.substr(7, 2);
-        }
-        var googleURL = "https://www.google.com/search?q=Covid+%2B+" + stateAbbrev + "+%2B+" + search;
+        var googleURL = "https://www.google.com/search?q=Covid+%2B+" + $("#stateName-topBar").text() + "+%2B+" + search;
         window.open(googleURL, '_blank');
     }
 
