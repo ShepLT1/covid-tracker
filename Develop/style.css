@@ -120,7 +120,7 @@ margin-top: .5em;
 
 
 /* Overriding Foundation's default style for the alert cards */
-@media print, screen and (min-width: 40em) and (max-width: 60em){
+@media print, screen and (min-width: 47em) and (max-width: 60em){
     .h4, h4 {
         font-size: 1.125rem !important;
 }}
