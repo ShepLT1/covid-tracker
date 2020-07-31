@@ -124,6 +124,10 @@ margin-top: .5em;
   text-decoration: underline;
 }
 
+#chart-legend {
+  font-size: 85%;
+}
+
 
 /* Overriding Foundation's default style for the alert cards */
 @media print, screen and (min-width: 40em) and (max-width: 60em){
