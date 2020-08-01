@@ -13,6 +13,8 @@ This COVID-19 tracking dashboard website will pull up-to-date covid-19 informati
 
 [Link to Deployed Page](https://sheplt1.github.io/covid-tracker/)
 
+[Link to License](./LICENSE)
+
 ## User Story
 
 ``` 
