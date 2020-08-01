@@ -23,7 +23,7 @@ I WANT to easily access up-to-date information in one page
 SO THAT I can make informed decisions when planning my day.
 ```
 ![indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/index.png)
-[indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
+![indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
 
 ## Tools Used:
 
