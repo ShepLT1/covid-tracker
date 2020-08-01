@@ -15,13 +15,13 @@
 
 <body>
   <!--Text for accessibility purposes.-->
-  <p class="show-for-sr"><a class="show-on-focus" href="#top-bar">Skip to Top-bar</a></p>
+  <p class="show-for-sr"><a href="#top-bar">Skip to Top-bar</a></p>
   <!-- Nav Bar -->
   <div data-sticky-container>
     <div class="show-for-small-only" data-sticky-on="small" data-sticky data-options="marginTop:0;"
       style="width: 100%;">
       <div class="title-bar" data-responsive-toggle="responsive-menu1" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle="responsive-menu1"></button>
+        <button class="menu-icon" type="button" aria-label='Mobile Navigation Trigger' data-toggle="responsive-menu1"></button>
         <div class="title-bar-title">Menu</div>
         <div class="title-bar-right"><span class="stateName"></span></div>
       </div>
@@ -33,13 +33,23 @@
       <p class="show-for-sr" tabindex="0">Welcome to the Covid-19 dashboard. This page will give you detailed
         information
         about Covid-19 in your state or the entire United States. </p>
-      <h1><a class="h1" tabindex="0" href="./index.html"><strong>Covid-19 Dashboard</strong></a></h1>
+      <h1><a class="h1" tabindex="0" aria-label="Click to return to landing page" href="./index.html"><strong>Covid-19 Dashboard</strong></a></h1>
     </div>
     <div class="top-bar-title">
-      <h1 class="stateName" id="stateName-topBar"></h1>
+      <h1 class="stateName" aria-label="Current State" id="stateName-topBar"></h1>
     </div>
+    <nav aria-label="Accessibility Navigation Menu" class="show-for-sr primary-navigation" tabindex="0" role="navigation">
+      <p>Accessible menu for quickly navigating the dashboard.</p>
+      <ul class="navigation-item-group">
+        <li class="nav-item"><a href="#states-navigation">States Dropdown</a></li>
+        <li class="nav-item"><a href="#maskAdvisoryButton">Advisory Buttons</a></li>
+        <li class="nav-item"><a href="#stats-card">Covid-19 Statistics</a></li>
+        <li class="nav-item"><a href="#newsArea">Latest News</a></li>
+        <li class="nav-item"><a href="#linksList">External Links</a></li>
+      </ul>
+    </nav>
     <div class="top-bar-right">
-      <ul class="dropdown menu" data-dropdown-menu>
+      <ul class="dropdown menu" data-dropdown-menu id="states-navigation">
         <!--Text for accessibility purposes.-->
         <p class="show-for-sr" tabindex="0">Click on USA to hear the stats for the entire United States. </p>
         <li><a href="#" class="selector-dropdown-country" data-location-name="United States"
@@ -311,7 +321,7 @@
     <div class="grid-x grid-margin-x">
       <!-- Stats Sidebar -->
       <div class="cell small-12 medium-3">
-        <div class="card" tabindex="0">
+        <div class="card" tabindex="0" id="stats-card">
           <div class="card-section">
             <!--Text for accessibility purposes.-->
             <p class="show-for-sr">This is where you will hear the most recent statistics of
