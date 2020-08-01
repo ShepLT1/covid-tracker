@@ -42,6 +42,12 @@ opacity: 1;
 transition: all 0.2s ease;
 }
 
+.dashboard-nav-card:focus {
+  outline: none;
+  border: none;
+  color: #fefefe;
+}
+
 .dashboard-nav-card-icon {
 font-size: 1.25rem;
 /* left: 1rem; */
@@ -74,9 +80,6 @@ font-size: medium;
 
 a {
   color: black;
-}
-a:hover {
-  color: gray
 }
 .selector-dropdown-country, .selector-dropdown-states, #stateName-topBar {
  background-color: lavender;
