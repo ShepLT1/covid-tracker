@@ -41,18 +41,8 @@ $(document).ready(function() {
           // number of new hospital patients admitted today
           var todayIncHospital = response[0].hospitalizedIncrease;
 
-          // cumulative ICU patient total
-          var todayTotICU = response[0].inIcuCumulative;
-          // current number of ICU patients
-          var todayCurrICU = response[0].inIcuCurrently;
-
           // cumulative total of negative tests
           var todayTotNegative = response[0].negative;
-
-          // cumulative total of patients put on ventilator
-          var todayTotVent = response[0].onVentilatorCumulative;
-          // current number of patients on ventilator
-          var todayCurrVent = response[0].onVentilatorCurrently;
 
           // cumulative total of positive tests
           var todayTotPositive = response[0].positive;
@@ -128,39 +118,9 @@ $(document).ready(function() {
           // Gets state/US data from past 30 days
           for (i = 31; i > 0; i--) {
 
-            // cumulative death total
-            var totDeaths = response[i].death;
-            // new deaths for current day
-            var dailyDeaths = response[i].deathIncrease;
-
-            // cumulative hospitalized patient total
-            var totHospital = response[i].hospitalizedCumulative;
-            // current number of hospitalized patients
-            var currHospital = response[i].hospitalizedCurrently;
-            // number of new hospital patients admitted for this day
-            var incHospital = response[i].hospitalizedIncrease;
-
-            // cumulative ICU patient total
-            var totICU = response[i].inIcuCumulative;
-            // current number of ICU patients
-            var currICU = response[i].inIcuCurrently;
-
-            // cumulative total of negative tests
-            var totNegative = response[i].negative;
-
-            // cumulative total of patients put on ventilator
-            var totVent = response[i].onVentilatorCumulative;
-            // current number of patients on ventilator
-            var currVent = response[i].onVentilatorCurrently;
-
-            // cumulative total of positive tests
-            var totPositive = response[i].positive;
-
             // number of new positive tests received on this day
             var incPositive = response[i].positiveIncrease;
 
-            // cumulative total of number of tests administered
-            var totTests = response[i].totalTestResults;
             // number of tests administered on this day
             var incTests = response[i].totalTestResultsIncrease;
 
