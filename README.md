@@ -22,8 +22,8 @@ I WANT to easily access up-to-date information in one page
 
 SO THAT I can make informed decisions when planning my day.
 ```
-![indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/index.png)
-![indexpage-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
+![index-page-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/index.png)
+![dashboard-page-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
 
 ## Tools Used:
 
@@ -44,32 +44,54 @@ SO THAT I can make informed decisions when planning my day.
 
 GIVEN The glass is desktop or mobile,
 
-WHEN The user interacts with the app
-THEN The pages are responsive.
+​	WHEN The user interacts with the app
+
+​	THEN The pages are responsive.
 
 GIVEN The user lands on the page (Landing Page).
 
-WHEN User click for the state.
-THEN Display dashboard for that location.
+​	WHEN User click for the state,
+
+​	THEN Display dashboard for that location.
 
 GIVEN The user views the dashboard,
 
-WHEN The stats section loads,
-THEN Up-to-date statistics are presented.
+​	WHEN The stats section loads,
 
-WHEN User views the map
-THEN The map has interactive elements.
+​	THEN Up-to-date statistics are presented.
 
-WHEN The news section loads,
-THEN Latest news is shown related with COVID-19.
+​	WHEN User views the map
 
-WHEN External links are clicked,
-THEN The user is taken to supporting data/articles.
+​	THEN The map has interactive elements.
 
-WHEN The regulations section loads,
-THEN Search results on Google for the state will show related with regulation.
+​	WHEN The news section loads,
 
-API ©Copyright
+​	THEN Latest news is shown related with COVID-19.
+
+​	WHEN External links are clicked,
+
+​	THEN The user is taken to supporting data/articles.
+
+​	WHEN The regulations section loads,
+
+​	THEN Search results on Google for the state will show related with regulation.
+
+
+
+## Directions for Future Development:
+
+For future development we would like to add government data, add possibly Twitter announcements from the selected state’s Governor, and make it have a customizable dashboard. The customizable dashboard would give the user the option to select whether they want to select from only seeing news, statistics or other specific information on their screen. 
+
+We would also make our tabs for “Mask Advisories”, “Social Distancing Requirements”, “Travel Restrictions Info” and “Trend in New Cases” actually display the data for the particular selected state within the tabs, instead of being a link for the user. 
+
+Finally, we would like to be able to pull the user’s location to automatically let the user know about any Covid-19 related alerts and spikes in their area, and be able to have world information and statistics as an option on the index and dashboard pages. 
+
+
+
+
+
+##### API ©Copyright
+
 * TrackCorona
 * Google Map
 * New York Times
