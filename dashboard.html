@@ -30,9 +30,8 @@
   <div class="top-bar" id="responsive-menu1">
     <div class="top-bar-left" style="max-width: 40vw;">
       <!--Text for accessibility purposes.-->
-      <p class="show-for-sr" tabindex="0">Welcome to the Covid-19 dashboard. This page will give you detailed
-        information
-        about Covid-19 in your state or the entire United States. </p>
+      <p class="show-for-sr" tabindex="0" id="accessibleWelcome">Welcome to the Covid-19 dashboard. This page will give you detailed
+        information about Covid-19 in your state or the entire United States. </p>
       <h1><a class="h1" tabindex="0" aria-label="Click to return to landing page" href="./index.html"><strong>Covid-19 Dashboard</strong></a></h1>
     </div>
     <div class="top-bar-title">
@@ -42,16 +41,16 @@
       <p>Accessible menu for quickly navigating the dashboard.</p>
       <ul class="navigation-item-group">
         <li class="nav-item"><a href="#states-navigation">States Dropdown</a></li>
-        <li class="nav-item"><a href="#maskAdvisoryButton">Advisory Buttons</a></li>
+        <li class="nav-item"><a href="#accessible-alert">Advisory Buttons</a></li>
         <li class="nav-item"><a href="#stats-card">Covid-19 Statistics</a></li>
-        <li class="nav-item"><a href="#newsArea">Latest News</a></li>
-        <li class="nav-item"><a href="#linksList">External Links</a></li>
+        <li class="nav-item"><a href="#accessible-news">Latest News</a></li>
+        <li class="nav-item"><a href="#external-links">External Links</a></li>
       </ul>
     </nav>
     <div class="top-bar-right">
-      <ul class="dropdown menu" data-dropdown-menu id="states-navigation">
+      <ul class="dropdown menu" data-dropdown-menu>
         <!--Text for accessibility purposes.-->
-        <p class="show-for-sr" tabindex="0">Click on USA to hear the stats for the entire United States. </p>
+        <p class="show-for-sr" tabindex="0" id="states-navigation">Click on USA to hear the stats for the entire United States. </p>
         <li><a href="#" class="selector-dropdown-country" data-location-name="United States"
             data-state-abbr="us">USA</a></li>
         <!--Text for accessibility purposes.-->
@@ -263,7 +262,7 @@
               <i class="dashboard-nav-card-icon fas fa-head-side-mask" aria-hidden="true"></i>
             </div>
             <div class="cell medium-9">
-              <h2 class="h4 dashboard-nav-card-title">Mask Advisory Info</h4>
+              <h2 class="h4 dashboard-nav-card-title" id="accessible-alert">Mask Advisory Info</h4>
                 <!--Text for accessibility purposes.-->
                 <p class="show-for-sr">Click this link to be directed to more information about mask advisories.</p>
             </div>
@@ -368,7 +367,7 @@
           </div>
           <!-- Map Cell -->
           <!--Map is hidden for accessibility-->
-          <p class="show-for-sr"><a tabindex="0" href="#newsArea">Next is an embedded Google Map. Click to skip to News Area</a></p>
+          <p class="show-for-sr"><a tabindex="0" href="#accessible-news">Next is an embedded Google Map showing country-wide virus distribution. Click to skip to News Area</a></p>
           <div class="cell medium-9" aria-hidden="true">
             <div aria-hidden="true">
               <div class="responsive-embed simple-border">
@@ -386,7 +385,7 @@
             <div class="card" id="newsCard1">
               <div class="card-section">
                 <!--Text for accessibility letting users know this is the news area.-->
-                <p class="show-for-sr" tabindex="0">This is where you will hear the most recent news regarding
+                <p class="show-for-sr" tabindex="0" id="accessible-news">This is where you will hear the most recent news regarding
                   Covid-19.</p>
                 <h4 class="h4" id="headline0" tabindex="0"></h4>
                 <p id="description0"> </p>
@@ -412,7 +411,7 @@
           <div class="cell medium-2">
             <ul id="linksList">
               <!--Text for accessibility letting users know this is the links area.-->
-              <p class="show-for-sr" tabindex="0">This is where you can find useful external links for more Covid-19 information and resources.</p>
+              <p class="show-for-sr" tabindex="0" id="external-links">This is where you can find useful external links for more Covid-19 information and resources.</p>
               <li>
                 <a href="https://www.cdc.gov/" tabindex="0">Link to CDC Info
                 </a>
@@ -426,6 +425,7 @@
                   README.md</a>
               </li>
             </ul>
+            <p class="show-for-sr"><a tabindex="0" href="#accessibleWelcome">This is the end of the COVID-19 Dashboard. Click to return to top.</a></p>
           </div>
         </div>
 
