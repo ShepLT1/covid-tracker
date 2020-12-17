@@ -24,8 +24,8 @@ I WANT to easily access up-to-date information in one page
 
 SO THAT I can make informed decisions when planning my day.
 ```
-![index-page-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/index.png)
-![dashboard-page-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
+![index-page-screenshot](./public/Assets/Images/index.png)
+![dashboard-page-screenshot](./public/Assets/Images/dashboard.png)
 
 ## Tools Used:
 
