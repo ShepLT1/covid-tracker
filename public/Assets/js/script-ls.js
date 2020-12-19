@@ -23,11 +23,12 @@ $(document).ready(function() {
     function getData() {
 
       $.ajax({
-          url: queryURL,
-          method: "GET",
+          url: "https://us-central1-covid-19-dashboard-e8d2b.cloudfunctions.net/getCovidData",
+          // If in development environment, use below url for testing in conjunction with firebase emulators.
+          // url: "http://localhost:5001/covid-19-dashboard-e8d2b/us-central1/getCovidData",
+          method: "POST",
+          data: {url: queryURL},
         }).then(function(response) {
-
-          console.log(response[0]);
 
           // cumulative death total
           var todayTotDeaths = response[0].death;
@@ -263,6 +264,14 @@ $(document).ready(function() {
             }
           });
 
+      })
+      .catch((error) => {
+        console.error(error);
+        // Getting the Error details.
+        var code = error.code;
+        var message = error.message;
+        var details = error.details;
+        console.log(code, message, details);
       })
 
     }
