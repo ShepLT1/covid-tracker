@@ -7,7 +7,6 @@ simplemaps_usmap.hooks.click_state = function (id) {
 
 $(".sr-state-selector").click( function() {
   var stateAbbrevForStorage = $(this).data("state-abbrev");
-  console.log(stateAbbrevForStorage);
   if (stateAbbrevForStorage === "us") {
     localStorage.setItem("Abbreviation", stateAbbrevForStorage);
   }
