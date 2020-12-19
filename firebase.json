@@ -9,6 +9,10 @@
     "rewrites": [ {
       "source": "/getCovidData",
       "function": "getCovidData"
+    },
+    {
+      "source": "/getCovidNews",
+      "function": "getCovidNews"
     } ],
     "ignore": [
       "firebase.json",

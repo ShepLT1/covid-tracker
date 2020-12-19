@@ -33,3 +33,26 @@ exports.getCovidData = functions.https.onRequest((req, res) => {
       .finally(() => res.end())
   })
 })
+
+exports.getCovidNews = functions.https.onRequest((req, res) => {
+  const url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=covid&api-key=zwTTbmJ5qOaMBpuLewVNJVUUyesekUNa";
+
+  cors(req, res, () => {
+    if (req.method !== "GET") {
+      return res.status(401).json({
+        message: "Not allowed"
+      });
+    }
+
+    return axios.get(url)
+      .then(response => {
+        return res.status(200).json(response.data)
+      })
+      .catch(err => {
+        return res.status(500).json({
+          error: err
+        })
+      })
+      .finally(() => res.end())
+  })
+})
