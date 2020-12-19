@@ -11,7 +11,7 @@
 
 This COVID-19 tracking dashboard website pulls up-to-date covid-19 information via 3rd party APIs, then presents the data in a cohesive, simple dashboard. Data is segmented into a few categories: Statistical Data, Historical Graph, Interactive map, and Latest News. The app gives users a high-level assessment of the state of covid-19 containment in their area, allowing users to make informed decisions. The webpage is responsive & each section tells users the timing for each piece of data.
 
-[Link to Deployed Page](https://sheplt1.github.io/covid-tracker/)
+[Link to Deployed Page](https://covid-19-dashboard-e8d2b.web.app/)
 
 [Link to License](./LICENSE)
 
@@ -24,8 +24,8 @@ I WANT to easily access up-to-date information in one page
 
 SO THAT I can make informed decisions when planning my day.
 ```
-![index-page-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/index.png)
-![dashboard-page-screenshot](https://github.com/ShepLT1/covid-tracker/blob/master/Assets/Images/dashboard.png)
+![index-page-screenshot](./public/Assets/Images/index.png)
+![dashboard-page-screenshot](./public/Assets/Images/dashboard.png)
 
 ## Tools Used:
 
