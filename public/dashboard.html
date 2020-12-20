@@ -10,19 +10,21 @@
   <link rel="icon" type="image/png" href="./Assets/Images/favicon-covid-tracker.png">
   <!--  Social Media META Tags -->
   <meta property="og:title" content="USA Covid-19 Dashboard">
-  <meta property="og:description" content="This COVID-19 tracking dashboard website pulls up-to-date covid-19 information via 3rd party APIs, then presents the data in a cohesive, simple dashboard. Data is segmented into a few categories: Statistical Data, Historical Graph, Interactive map, and Latest News. The app gives users a high-level assessment of the state of covid-19 containment in their area, allowing users to make informed decisions. The webpage is responsive & each section tells users the timing for each piece of data.">
-  <meta property="og:image" content="https://sheplt1.github.io/covid-tracker/Assets/Images/dashboard-meta-tag.png">
-  <meta property="og:url" content="https://sheplt1.github.io/covid-tracker/">
+  <meta property="og:description"
+    content="This COVID-19 tracking dashboard website pulls up-to-date covid-19 information via 3rd party APIs, then presents the data in a cohesive, simple dashboard. Data is segmented into a few categories: Statistical Data, Historical Graph, Interactive map, and Latest News. The app gives users a high-level assessment of the state of covid-19 containment in their area, allowing users to make informed decisions. The webpage is responsive & each section tells users the timing for each piece of data.">
+  <meta property="og:image" content="https://covid-19-dashboard-e8d2b.web.app/public/Assets/Images/dashboard-meta-tag.png">
+  <meta property="og:url" content="https://covid-19-dashboard-e8d2b.web.app/">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="USA Covid-19 Dashboard">
-  <meta name="twitter:image:alt" content="Example screenshot of the covid-19 dashboard from July 2020. It shows The statistics panel, cases over time graph, and the news sidebar.">
+  <meta name="twitter:image:alt"
+    content="Example screenshot of the covid-19 dashboard from July 2020. It shows The statistics panel, cases over time graph, and the news sidebar.">
 
   <!-- Google Font: Oleo Script -->
   <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=fallback" rel="stylesheet">
   <!-- Compressed Foundation CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
     integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
-  <link rel="stylesheet" href="./Develop/style.css">
+  <link rel="stylesheet" href="./Assets/style.css">
 </head>
 
 <body>
@@ -33,7 +35,8 @@
     <div class="show-for-small-only" data-sticky-on="small" data-sticky data-options="marginTop:0;"
       style="width: 100%;">
       <div class="title-bar" data-responsive-toggle="responsive-menu1" data-hide-for="medium">
-        <button class="menu-icon" type="button" aria-label='Mobile Navigation Trigger' data-toggle="responsive-menu1"></button>
+        <button class="menu-icon" type="button" aria-label='Mobile Navigation Trigger'
+          data-toggle="responsive-menu1"></button>
         <div class="title-bar-title">Menu</div>
         <div class="title-bar-right"><span class="stateName"></span></div>
       </div>
@@ -42,14 +45,17 @@
   <div class="top-bar" id="responsive-menu1">
     <div class="top-bar-left" style="max-width: 40vw;">
       <!--Text for accessibility purposes.-->
-      <p class="show-for-sr" tabindex="0" id="accessibleWelcome">Welcome to the Covid-19 dashboard. This page will give you detailed
+      <p class="show-for-sr" tabindex="0" id="accessibleWelcome">Welcome to the Covid-19 dashboard. This page will give
+        you detailed
         information about Covid-19 in your state or the entire United States. </p>
-      <h1><a class="h1" tabindex="0" aria-label="Click to return to landing page" href="./index.html"><strong>Covid-19 Dashboard</strong></a></h1>
+      <h1><a class="h1" tabindex="0" aria-label="Click to return to landing page" href="./index.html"><strong>Covid-19
+            Dashboard</strong></a></h1>
     </div>
     <div class="top-bar-title">
       <h1 class="stateName" aria-label="Current State" id="stateName-topBar"></h1>
     </div>
-    <nav aria-label="Accessibility Navigation Menu" class="show-for-sr primary-navigation" tabindex="0" role="navigation">
+    <nav aria-label="Accessibility Navigation Menu" class="show-for-sr primary-navigation" tabindex="0"
+      role="navigation">
       <p>Accessible menu for quickly navigating the dashboard.</p>
       <ul class="navigation-item-group">
         <li class="nav-item"><a href="#states-navigation">States Dropdown</a></li>
@@ -62,7 +68,8 @@
     <div class="top-bar-right">
       <ul class="dropdown menu" data-dropdown-menu>
         <!--Text for accessibility purposes.-->
-        <p class="show-for-sr" tabindex="0" id="states-navigation">Click on USA to hear the stats for the entire United States. </p>
+        <p class="show-for-sr" tabindex="0" id="states-navigation">Click on USA to hear the stats for the entire United
+          States. </p>
         <li><a href="#" class="selector-dropdown-country" data-location-name="United States"
             data-state-abbr="us">USA</a></li>
         <!--Text for accessibility purposes.-->
@@ -379,8 +386,10 @@
           </div>
           <!-- Map Cell -->
           <!--Map is hidden for accessibility-->
-          <p class="show-for-sr"><a tabindex="0" href="#accessible-news">Next is an embedded Google Map showing country-wide virus distribution. Click to skip to News Area</a></p>
+          <p class="show-for-sr"><a tabindex="0" href="#accessible-news">Next is an embedded Google Map showing
+              country-wide virus distribution. Click to skip to News Area</a></p>
           <div class="cell medium-9" aria-hidden="true">
+            <small id="mapLoadingWarning" aria-hidden="true">(The map data may take some time to load. Thank you for your patience.)</small>
             <div aria-hidden="true">
               <div class="responsive-embed simple-border">
                 <object width="420" height=auto id="map"></object>
@@ -397,7 +406,8 @@
             <div class="card" id="newsCard1">
               <div class="card-section">
                 <!--Text for accessibility letting users know this is the news area.-->
-                <p class="show-for-sr" tabindex="0" id="accessible-news">This is where you will hear the most recent news regarding
+                <p class="show-for-sr" tabindex="0" id="accessible-news">This is where you will hear the most recent
+                  news regarding
                   Covid-19.</p>
                 <h4 class="h4" id="headline0" tabindex="0"></h4>
                 <p id="description0"> </p>
@@ -423,7 +433,8 @@
           <div class="cell medium-2">
             <ul id="linksList">
               <!--Text for accessibility letting users know this is the links area.-->
-              <p class="show-for-sr" tabindex="0" id="external-links">This is where you can find useful external links for more Covid-19 information and resources.</p>
+              <p class="show-for-sr" tabindex="0" id="external-links">This is where you can find useful external links
+                for more Covid-19 information and resources.</p>
               <li>
                 <a href="https://www.cdc.gov/" tabindex="0">Link to CDC Info
                 </a>
@@ -437,13 +448,24 @@
                   README.md</a>
               </li>
             </ul>
-            <p class="show-for-sr"><a tabindex="0" href="#accessibleWelcome">This is the end of the COVID-19 Dashboard. Click to return to top.</a></p>
+            <p class="show-for-sr"><a tabindex="0" href="#accessibleWelcome">This is the end of the COVID-19 Dashboard.
+                Click to return to top.</a></p>
           </div>
         </div>
 
       </div>
     </div>
   </div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-functions.js"></script>
+  <!-- Initialize Firebase -->
+  <script src="./Assets/js/init-firebase.js"></script>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -456,11 +478,11 @@
   <!-- Chart JS -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <!-- Team Scripts -->
-  <script src="./Develop/script-ls.js"></script>
-  <script src="./Develop/maptest.js"></script>
-  <script src="./Develop/covid-News.js"></script>
+  <script src="./Assets/js/script-ls.js"></script>
+  <script src="./Assets/js/covid-News.js"></script>
+  <script defer src="./Assets/js/maptest.js"></script>
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChs4wyhn9M-1Nl7QJkEInXTOy0p4347Jo&callback=initMap"></script>
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCznxYzvoyJxECm1pVJtwzBGWF-O7rwYUY&callback=initMap"></script>
 
 </body>
 
