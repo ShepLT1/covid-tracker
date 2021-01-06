@@ -14,7 +14,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "firebase": "^8.2.1",
     "firebase-admin": "^9.2.0",
